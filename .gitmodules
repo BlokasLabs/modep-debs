@@ -1,0 +1,3 @@
+[submodule "caps-lv2"]
+	path = caps-lv2/caps-lv2_src
+	url = https://github.com/BlokasLabs/caps-lv2.git

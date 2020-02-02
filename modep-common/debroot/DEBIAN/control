@@ -1,0 +1,10 @@
+Section: audio
+Priority: optional
+Homepage: https://blokas.io/modep
+Standards-Version: 3.9.2
+Package: modep-common
+Version: 1.0.0-0
+Architecture: all
+Maintainer: Blokas Labs <hello@blokas.io>
+Depends: adduser (>= 3.0)
+Description: Common package for MODEP to take care of some system configuration like creating 'modep' user.
