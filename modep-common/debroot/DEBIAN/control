@@ -6,5 +6,5 @@ Package: modep-common
 Version: 1.0.0-0
 Architecture: all
 Maintainer: Blokas Labs <hello@blokas.io>
-Depends: adduser (>= 3.0)
+Depends: adduser (>= 3.0), blokas-jack (>= 1.0)
 Description: Common package for MODEP to take care of some system configuration like creating 'modep' user.

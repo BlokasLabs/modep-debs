@@ -1,3 +1,6 @@
 [submodule "caps-lv2"]
 	path = caps-lv2/caps-lv2_src
 	url = https://github.com/BlokasLabs/caps-lv2.git
+[submodule "modep-mod-host/src"]
+	path = modep-mod-host/src
+	url = https://github.com/BlokasLabs/mod-host
