@@ -1,0 +1,5 @@
+modep-common (1.0.0-0) buster; urgency=medium
+
+  * Initial deb package.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 03 Feb 2020 23:12:34 +0000

@@ -1,0 +1,13 @@
+Source: modep-common
+Section: audio
+Priority: optional
+Maintainer: Blokas Labs <hello@blokas.io>
+Build-Depends: debhelper (>= 9)
+
+Package: modep-common
+Homepage: https://blokas.io/modep
+#Standards-Version: 3.9.2
+#Version: 1.0.0-0
+Architecture: all
+Depends: adduser (>= 3.0), blokas-jack (>= 1.0), ${misc:Depends}
+Description: Common package for MODEP to take care of some system configuration like creating 'modep' user.
