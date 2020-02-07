@@ -1,0 +1,5 @@
+modep-caps-lv2 (0.9.26-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Fri, 07 Feb 2020 21:55:49 +0000
