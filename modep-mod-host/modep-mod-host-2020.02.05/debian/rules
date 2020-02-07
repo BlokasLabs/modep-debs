@@ -17,4 +17,4 @@ override_dh_auto_install:
 override_dh_auto_test:
 
 override_dh_installsystemd:
-	dh_installsystemd  --name=modep-mod-host
+	dh_installsystemd  --name=modep-mod-host --no-enable --no-start
