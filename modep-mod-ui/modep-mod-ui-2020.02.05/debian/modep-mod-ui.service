@@ -4,6 +4,8 @@ After=modep-mod-host.service
 Requires=modep-mod-host.service
 
 [Service]
+LimitRTPRIO=95
+LimitMEMLOCK=infinity
 Environment=LV2_PATH=/usr/modep/lv2
 Environment=LV2_PLUGIN_DIR=/usr/modep/lv2
 Environment=LV2_PEDALBOARDS_DIR=/var/modep/pedalboards
@@ -20,7 +22,7 @@ Environment=JACK_PROMISCUOUS_SERVER=jack
 Environment=MOD_HTML_DIR=/usr/share/mod/html
 Environment=MOD_DEFAULT_PEDALBOARD=/usr/share/mod/default.pedalboard
 
-#WorkingDirectory=/usr/modep/mod-ui
+WorkingDirectory=/var/modep
 ExecStart=/usr/bin/authbind /usr/bin/mod-ui
 User=modep
 Group=modep
