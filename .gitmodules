@@ -4,3 +4,6 @@
 [submodule "modep-mod-host/src"]
 	path = modep-mod-host/src
 	url = https://github.com/BlokasLabs/mod-host
+[submodule "modep-mod-ui/src"]
+	path = modep-mod-ui/src
+	url = https://github.com/BlokasLabs/mod-ui

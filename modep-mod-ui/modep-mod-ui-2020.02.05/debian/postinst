@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mkdir -p /var/modep
+chown modep:modep /var/modep
+
+#DEBHELPER#

@@ -9,5 +9,5 @@ Homepage: https://blokas.io/modep
 Package: modep-mod-host
 Architecture: any
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: modep-common (>= 1.0.0), ${misc:Depends}, ${shlibs:Depends}
 Description: MOD-Host package.
