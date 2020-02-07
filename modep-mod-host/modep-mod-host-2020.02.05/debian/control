@@ -1,0 +1,13 @@
+Source: modep-mod-host
+Section: audio
+Priority: optional
+Maintainer: Giedrius Trainavičius <hello@blokas.io>
+Build-Depends: debhelper (>=11~)
+Standards-Version: 4.1.4
+Homepage: https://blokas.io/modep
+
+Package: modep-mod-host
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: MOD-Host package.
