@@ -7,3 +7,6 @@
 [submodule "modep-mod-ui/src"]
 	path = modep-mod-ui/src
 	url = https://github.com/BlokasLabs/mod-ui
+[submodule "modep-mda-lv2/src"]
+	path = modep-mda-lv2/src
+	url = https://github.com/BlokasLabs/mda-lv2.git
