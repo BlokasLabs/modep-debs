@@ -1,0 +1,5 @@
+modep-lv2-freaked (1.0.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Sun, 09 Feb 2020 14:54:54 +0000
