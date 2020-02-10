@@ -19,3 +19,6 @@
 [submodule "modep-lv2-fluidsynth/src_fp"]
 	path = modep-lv2-fluidsynth/src_fp
 	url = https://github.com/BlokasLabs/fluidplug
+[submodule "modep-lv2-midifilter/src"]
+	path = modep-lv2-midifilter/src
+	url = https://github.com/BlokasLabs/midifilter.lv2
