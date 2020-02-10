@@ -13,3 +13,9 @@
 [submodule "modep-freaked/src"]
 	path = modep-lv2-freaked/src
 	url = https://github.com/BlokasLabs/Freaked.git
+[submodule "modep-lv2-fluidsynth/src_fs"]
+	path = modep-lv2-fluidsynth/src_fs
+	url = https://github.com/BlokasLabs/fluidsynth.git
+[submodule "modep-lv2-fluidsynth/src_fp"]
+	path = modep-lv2-fluidsynth/src_fp
+	url = https://github.com/BlokasLabs/fluidplug
