@@ -28,3 +28,6 @@
 [submodule "modep-lv2-tap/src"]
 	path = modep-lv2-tap/src
 	url = https://github.com/BlokasLabs/tap-lv2
+[submodule "modep-lv2-mod-utilities/src"]
+	path = modep-lv2-mod-utilities/src
+	url = https://github.com/BlokasLabs/mod-utilities.git
