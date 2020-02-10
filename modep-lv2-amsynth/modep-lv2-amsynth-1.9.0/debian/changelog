@@ -1,0 +1,5 @@
+modep-lv2-amsynth (1.9.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 10 Feb 2020 21:45:31 +0000
