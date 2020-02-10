@@ -40,3 +40,6 @@
 [submodule "modep-lv2-amsynth/src"]
 	path = modep-lv2-amsynth/src
 	url = https://github.com/BlokasLabs/amsynth.git
+[submodule "modep-lv2-amsynth/modep-lv2-artyfx/src"]
+	path = modep-lv2-artyfx/src
+	url = https://github.com/BlokasLabs/openAV-ArtyFX

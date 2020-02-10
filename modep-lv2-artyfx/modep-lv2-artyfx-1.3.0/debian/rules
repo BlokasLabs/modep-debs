@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+# You must remove unused comment lines for the released package.
+#export DH_VERBOSE = 1
+#export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+#export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
+#export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
+
+%:
+	dh $@  
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DCMAKE_INSTALL_PREFIX=/usr/modep/lv2 -DBUILD_GUI=OFF -DBUILD_SSE=OFF
+
+override_dh_auto_install:
+	dh_auto_install
+	mv $(CURDIR)/debian/modep-lv2-artyfx/usr/modep/lv2/lib/lv2/* $(CURDIR)/debian/modep-lv2-artyfx/usr/modep/lv2
+	rm -rf $(CURDIR)/debian/modep-lv2-artyfx/usr/modep/lv2/lib
