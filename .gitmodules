@@ -25,3 +25,6 @@
 [submodule "modep-lv2-mod-distortion/src"]
 	path = modep-lv2-mod-distortion/src
 	url = https://github.com/BlokasLabs/mod-distortion.git
+[submodule "modep-lv2-tap/src"]
+	path = modep-lv2-tap/src
+	url = https://github.com/BlokasLabs/tap-lv2

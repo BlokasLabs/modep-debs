@@ -1,0 +1,5 @@
+modep-lv2-tap (1.2.7-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 10 Feb 2020 14:39:18 +0000
