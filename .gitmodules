@@ -3,10 +3,10 @@
 	url = https://github.com/BlokasLabs/caps-lv2.git
 [submodule "modep-mod-host/src"]
 	path = modep-mod-host/src
-	url = https://github.com/BlokasLabs/mod-host
+	url = https://github.com/BlokasLabs/mod-host.git
 [submodule "modep-mod-ui/src"]
 	path = modep-mod-ui/src
-	url = https://github.com/BlokasLabs/mod-ui
+	url = https://github.com/BlokasLabs/mod-ui.git
 [submodule "modep-mda-lv2/src"]
 	path = modep-mda-lv2/src
 	url = https://github.com/BlokasLabs/mda-lv2.git
@@ -18,7 +18,10 @@
 	url = https://github.com/BlokasLabs/fluidsynth.git
 [submodule "modep-lv2-fluidsynth/src_fp"]
 	path = modep-lv2-fluidsynth/src_fp
-	url = https://github.com/BlokasLabs/fluidplug
+	url = https://github.com/BlokasLabs/fluidplug.git
 [submodule "modep-lv2-midifilter/src"]
 	path = modep-lv2-midifilter/src
 	url = https://github.com/BlokasLabs/midifilter.lv2
+[submodule "modep-lv2-mod-distortion/src"]
+	path = modep-lv2-mod-distortion/src
+	url = https://github.com/BlokasLabs/mod-distortion.git

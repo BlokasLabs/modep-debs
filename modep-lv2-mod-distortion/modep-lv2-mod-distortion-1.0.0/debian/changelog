@@ -1,0 +1,5 @@
+modep-lv2-mod-distortion (1.0.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 10 Feb 2020 12:38:35 +0000

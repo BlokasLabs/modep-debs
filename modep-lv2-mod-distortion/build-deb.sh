@@ -5,8 +5,8 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR
 source ../env.sh
 
-PACKAGE=modep-lv2-midifilter
-VERSION=0.6.2
+PACKAGE=modep-lv2-mod-distortion
+VERSION=1.0.0
 
 PKGFOLDER=${PACKAGE}-${VERSION}
 
