@@ -1,0 +1,5 @@
+modep-lv2-gx-slowgear (0.5.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 10 Feb 2020 15:47:38 +0000

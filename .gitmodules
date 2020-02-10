@@ -31,3 +31,6 @@
 [submodule "modep-lv2-mod-utilities/src"]
 	path = modep-lv2-mod-utilities/src
 	url = https://github.com/BlokasLabs/mod-utilities.git
+[submodule "modep-lv2-gx-slowgear/src"]
+	path = modep-lv2-gx-slowgear/src
+	url = https://github.com/BlokasLabs/GxSlowGear.lv2
