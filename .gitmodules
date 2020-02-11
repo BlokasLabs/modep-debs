@@ -43,3 +43,6 @@
 [submodule "modep-lv2-amsynth/modep-lv2-artyfx/src"]
 	path = modep-lv2-artyfx/src
 	url = https://github.com/BlokasLabs/openAV-ArtyFX
+[submodule "modep-lv2-bolliedelay/src"]
+	path = modep-lv2-bolliedelay/src
+	url = https://github.com/BlokasLabs/bolliedelay.lv2
