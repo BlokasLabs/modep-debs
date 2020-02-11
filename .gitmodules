@@ -46,3 +46,6 @@
 [submodule "modep-lv2-bolliedelay/src"]
 	path = modep-lv2-bolliedelay/src
 	url = https://github.com/BlokasLabs/bolliedelay.lv2
+[submodule "modep-lv2-setbfree/src"]
+	path = modep-lv2-setbfree/src
+	url = https://github.com/BlokasLabs/setBfree.git
