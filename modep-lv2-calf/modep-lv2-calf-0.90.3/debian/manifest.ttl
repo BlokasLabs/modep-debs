@@ -1,0 +1,360 @@
+@prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
+@prefix lv2p:  <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+
+#<http://calf.sourceforge.net/factory_presets#monosynth_SynthBrass> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_OctavedSquare> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_Moveit> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_FatBass> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_CutThroughBass> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_FatCats> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_Twinkle> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#filter_Totallymuted> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Filter> ;
+#    rdfs:seeAlso <presets-Filter.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#filter_Disco> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Filter> ;
+#    rdfs:seeAlso <presets-Filter.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#filter_DistantHeadphones> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Filter> ;
+#    rdfs:seeAlso <presets-Filter.ttl>, <modguis.ttl> .
+<http://calf.sourceforge.net/factory_presets#flanger_SlowResonant> a lv2p:Preset ;
+    lv2:appliesTo <http://calf.sourceforge.net/plugins/Flanger> ;
+    rdfs:seeAlso <presets-Flanger.ttl>, <modguis.ttl> .
+<http://calf.sourceforge.net/factory_presets#flanger_Waterlike> a lv2p:Preset ;
+    lv2:appliesTo <http://calf.sourceforge.net/plugins/Flanger> ;
+    rdfs:seeAlso <presets-Flanger.ttl>, <modguis.ttl> .
+<http://calf.sourceforge.net/factory_presets#flanger_FastSweep> a lv2p:Preset ;
+    lv2:appliesTo <http://calf.sourceforge.net/plugins/Flanger> ;
+    rdfs:seeAlso <presets-Flanger.ttl>, <modguis.ttl> .
+<http://calf.sourceforge.net/factory_presets#flanger_ToothKiller> a lv2p:Preset ;
+    lv2:appliesTo <http://calf.sourceforge.net/plugins/Flanger> ;
+    rdfs:seeAlso <presets-Flanger.ttl>, <modguis.ttl> .
+<http://calf.sourceforge.net/factory_presets#flanger_Warble> a lv2p:Preset ;
+    lv2:appliesTo <http://calf.sourceforge.net/plugins/Flanger> ;
+    rdfs:seeAlso <presets-Flanger.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#reverb_LargeEmptyHall> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Reverb> ;
+#    rdfs:seeAlso <presets-Reverb.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#reverb_DiscoVerb> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Reverb> ;
+#    rdfs:seeAlso <presets-Reverb.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#reverb_LargeOccupiedHall> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Reverb> ;
+#    rdfs:seeAlso <presets-Reverb.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_Claribone> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_DigiString> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_Barkline> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_KillDatSub> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_BoomBass> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_CrystalHarp> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#flanger_ChorusLite> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Flanger> ;
+#    rdfs:seeAlso <presets-Flanger.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_SubtleEP> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_Transistor> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_Transistor2> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_Clavesque> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_Gatesofdawn> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_Rustykeys> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_12Sqr> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_FatBelly> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_EdgyBass> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_StdJimmy> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_MelodicaNOS> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_Shamrock> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_SpaceBells> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_Monkstown> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_MysticPizzicato> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_VeloBee> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_BuzzyBass> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_MunchBass> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_Bubbles> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_EtherealClav> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_CursedChalice> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_RoyalewithCheese> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_ZynBrass> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_SitareanPipes> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_TekChoirBellPerc> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_Intertube> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_Tty> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_TyrantBass> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#flanger_Allpassfilter> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Flanger> ;
+#    rdfs:seeAlso <presets-Flanger.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_Trollarity> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_Electropop> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_MrClick> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_CriticalBass> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#organ_PipeDream> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Organ> ;
+#    rdfs:seeAlso <presets-Organ.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_GoaBass> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_SquareWorm> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_OctaWorm> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monosynth_PulsatingOrange> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Monosynth> ;
+#    rdfs:seeAlso <presets-Monosynth.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#reverb_Emptywalls> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Reverb> ;
+#    rdfs:seeAlso <presets-Reverb.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#reverb_Ambience> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Reverb> ;
+#    rdfs:seeAlso <presets-Reverb.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#reverb_Room> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/Reverb> ;
+#    rdfs:seeAlso <presets-Reverb.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monocompressor_VocalLeveller> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/MonoCompressor> ;
+#    rdfs:seeAlso <presets-MonoCompressor.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monocompressor_VocalLeveller2> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/MonoCompressor> ;
+#    rdfs:seeAlso <presets-MonoCompressor.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monocompressor_SnareMic> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/MonoCompressor> ;
+#    rdfs:seeAlso <presets-MonoCompressor.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/factory_presets#monocompressor_SnareMic2> a lv2p:Preset ;
+#    lv2:appliesTo <http://calf.sourceforge.net/plugins/MonoCompressor> ;
+#    rdfs:seeAlso <presets-MonoCompressor.ttl>, <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Monosynth> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:33920> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Monosynth.ttl> , <presets-Monosynth.ttl>, <modguis.ttl>.
+#<http://calf.sourceforge.net/plugins/Organ> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:33921> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Organ.ttl> , <presets-Organ.ttl>, <modguis.ttl>.
+#<http://calf.sourceforge.net/plugins/MultiChorus> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34049> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <MultiChorus.ttl>, <modguis.ttl> .
+<http://calf.sourceforge.net/plugins/Phaser> a lv2:Plugin ;
+    dct:replaces <urn:ladspa:33924> ;
+    lv2:binary <calf.so> ; rdfs:seeAlso <Phaser.ttl>, <modguis.ttl> .
+<http://calf.sourceforge.net/plugins/Flanger> a lv2:Plugin ;
+    dct:replaces <urn:ladspa:33917> ;
+    lv2:binary <calf.so> ; rdfs:seeAlso <Flanger.ttl> , <presets-Flanger.ttl> , <modguis.ttl>.
+#<http://calf.sourceforge.net/plugins/Pulsator> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34068> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Pulsator.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/RingModulator> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34068> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <RingModulator.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/RotarySpeaker> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:33923> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <RotarySpeaker.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/TapeSimulator> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34184> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <TapeSimulator.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Vinyl> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:5513> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Vinyl.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Reverb> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:33918> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Reverb.ttl> , <presets-Reverb.ttl> , <modguis.ttl>.
+#<http://calf.sourceforge.net/plugins/VintageDelay> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:33922> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <VintageDelay.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/CompensationDelay> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:33925> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <CompensationDelay.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/ReverseDelay> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:33922> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <ReverseDelay.ttl> , <modguis.ttl> .
+<http://calf.sourceforge.net/plugins/Compressor> a lv2:Plugin ;
+    dct:replaces <urn:ladspa:34050> ;
+    lv2:binary <calf.so> ; rdfs:seeAlso <Compressor.ttl>  , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/SidechainCompressor> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34071> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <SidechainCompressor.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/MultibandCompressor> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34070> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <MultibandCompressor.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/MonoCompressor> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34167> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <MonoCompressor.ttl> , <presets-MonoCompressor.ttl> , <modguis.ttl>.
+#<http://calf.sourceforge.net/plugins/Deesser> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34069> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Deesser.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Gate> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34051> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Gate.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/SidechainGate> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34052> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <SidechainGate.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/MultibandGate> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34053> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <MultibandGate.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Limiter> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34081> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Limiter.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/MultibandLimiter> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34080> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <MultibandLimiter.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/SidechainLimiter> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34082> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <SidechainLimiter.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/TransientDesigner> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34184> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <TransientDesigner.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Filter> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:33919> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Filter.ttl> , <presets-Filter.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Filterclavier> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:33951> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Filterclavier.ttl> , <modguis.ttl> .
+<http://calf.sourceforge.net/plugins/EnvelopeFilter> a lv2:Plugin ;
+    dct:replaces <urn:ladspa:33842> ;
+    lv2:binary <calf.so> ; rdfs:seeAlso <EnvelopeFilter.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Emphasis> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34201> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Emphasis.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Vocoder> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34068> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Vocoder.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Equalizer5Band> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34065> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Equalizer5Band.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Equalizer8Band> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34066> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Equalizer8Band.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Equalizer12Band> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34067> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Equalizer12Band.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Equalizer30Band> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34068> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Equalizer30Band.ttl> , <modguis.ttl> .
+<http://calf.sourceforge.net/plugins/Saturator> a lv2:Plugin ;
+    dct:replaces <urn:ladspa:34096> ;
+    lv2:binary <calf.so> ; rdfs:seeAlso <Saturator.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Crusher> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34183> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Crusher.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/Exciter> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34097> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Exciter.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/BassEnhancer> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34098> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <BassEnhancer.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/StereoTools> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34184> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <StereoTools.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/HaasEnhancer> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:33926> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <HaasEnhancer.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/MultibandEnhancer> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:33057> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <MultibandEnhancer.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/MultiSpread> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:33059> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <MultiSpread.ttl> , <modguis.ttl> .
+#<http://calf.sourceforge.net/plugins/MonoInput> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34185> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <MonoInput.ttl>  , <modguis.ttl>.
+#<http://calf.sourceforge.net/plugins/XOver2Band> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34069> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <XOver2Band.ttl>  , <modguis.ttl>.
+#<http://calf.sourceforge.net/plugins/XOver3Band> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34069> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <XOver3Band.ttl> , <modguis.ttl>.
+#<http://calf.sourceforge.net/plugins/XOver4Band> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34069> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <XOver4Band.ttl> , <modguis.ttl>.
+#<http://calf.sourceforge.net/plugins/Analyzer> a lv2:Plugin ;
+#    dct:replaces <urn:ladspa:34184> ;
+#    lv2:binary <calf.so> ; rdfs:seeAlso <Analyzer.ttl> , <modguis.ttl> .

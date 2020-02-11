@@ -1,0 +1,95 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Compressor
+<http://calf.sourceforge.net/plugins/Compressor>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui>;
+        modgui:stylesheet <modgui/compressor/icon-calf-compressor.css>;
+        modgui:iconTemplate <modgui/compressor/icon-calf-compressor.html>;
+        modgui:screenshot <modgui/compressor/screenshot-calf-compressor.png>;
+        modgui:thumbnail <modgui/compressor/thumb-calf-compressor.png>;
+    ] .
+## END http://calf.sourceforge.net/plugins/Compressor
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/EnvelopeFilter
+<http://calf.sourceforge.net/plugins/EnvelopeFilter>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/envelope-filter/icon-calf-envelope-filter.html> ;
+        modgui:stylesheet <modgui/envelope-filter/stylesheet-calf-envelope-filter.css> ;
+        modgui:screenshot <modgui/envelope-filter/screenshot-calf-envelope-filter.png> ;
+        modgui:thumbnail <modgui/envelope-filter/thumbnail-calf-envelope-filter.png> ;
+        modgui:brand "Calf" ;
+        modgui:label "Envelope Filter" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-select-4-knobs" ;
+        modgui:color "racing" ;
+        modgui:knob "blue" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "mode" ;
+            lv2:name "Mode" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "level_in" ;
+            lv2:name "Input Gain" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "response" ;
+            lv2:name "Response" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "attack" ;
+            lv2:name "Attack" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "gain" ;
+            lv2:name "Activate" ;
+        ] ;
+    ] .
+
+## END http://calf.sourceforge.net/plugins/EnvelopeFilter
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Flanger
+<http://calf.sourceforge.net/plugins/Flanger>
+modgui:gui [
+    modgui:resourcesDirectory <modgui>;
+    modgui:stylesheet <modgui/Flanger/icon-calf-flanger.css>;
+    modgui:iconTemplate <modgui/Flanger/icon-calf-flanger.html>;
+    modgui:screenshot <modgui/Flanger/screenshot-calf-flanger.png>;
+    modgui:thumbnail <modgui/Flanger/thumb-calf-flanger.png>;
+] .
+## END http://calf.sourceforge.net/plugins/Flanger
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Phaser
+<http://calf.sourceforge.net/plugins/Phaser>
+modgui:gui [
+    modgui:resourcesDirectory <modgui>;
+    modgui:stylesheet <modgui/Phaser/icon-calf-phaser.css>;
+    modgui:iconTemplate <modgui/Phaser/icon-calf-phaser.html>;
+    modgui:screenshot <modgui/Phaser/screenshot-calf-phaser.png>;
+    modgui:thumbnail <modgui/Phaser/thumb-calf-phaser.png>;
+] .
+## END http://calf.sourceforge.net/plugins/Phaser
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Saturator
+<http://calf.sourceforge.net/plugins/Saturator>
+modgui:gui [
+    modgui:resourcesDirectory <modgui>;
+    modgui:stylesheet <modgui/Saturator/icon-calf-saturator.css>;
+    modgui:iconTemplate <modgui/Saturator/icon-calf-saturator.html>;
+    modgui:screenshot <modgui/Saturator/screenshot-calf-saturator.png>;
+    modgui:thumbnail <modgui/Saturator/thumb-calf-saturator.png>;
+] .
+## END http://calf.sourceforge.net/plugins/Saturator
+###############################################################################

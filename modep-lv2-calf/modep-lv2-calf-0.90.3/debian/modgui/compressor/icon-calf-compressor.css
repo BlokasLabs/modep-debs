@@ -1,0 +1,425 @@
+/* Common calf rules */
+.calf-compressor {
+    background: url(/resources/img/background_dark.png{{{ns}}}) repeat;
+    position: relative;
+    color: #FFF;
+}
+
+/* bar top */
+
+.calf-compressor .bar-top {
+    background: url(/resources/img/background_black.png{{{ns}}}) repeat;
+    height: 46px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.calf-compressor .clearfix {
+    float: none;
+    width: 100% !important;
+    clear: both !important;
+} 
+.calf-compressor .bar-top .title-calf {
+    color: #FFF;
+    display: block;
+    left: 35px;
+    position: absolute;
+    top: 13px;
+}
+.calf-compressor .bar-top .off-or-on-calf {
+    background-image: url(/resources/img/toggle2_silver.png{{{ns}}});
+    background-size: 46px 62px;
+    cursor: pointer;
+    height: 31px;
+    z-index: 100;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 46px;
+}
+.calf-compressor .bar-top .on {
+    background-position: top center;
+}
+.calf-compressor .bar-top .off {
+    background-position: bottom center;
+}
+.calf-compressor .bar-top .off-or-on-calf span {
+    color: #FFF;
+    left: -50px;
+    position: absolute;
+    top: 9px;
+}
+
+/* Common calf div */
+
+.calf-compressor .calf-compressor-wrapper {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 46px;
+}
+/* group */
+.calf-compressor .calf-control-group {
+    width: 240px;
+    margin: 15px auto 10px auto;
+    z-index: 100000;
+    position: relative !important;
+}
+.calf-compressor .calf-control-group.a {
+    height: 280px
+}
+.calf-compressor .calf-control-group.a .knob {
+    margin: 0;
+    width: 75px;
+}
+.calf-compressor .calf-control-group.b .knob {
+    margin: 0 0 6px 0;
+    width: 92px;
+}
+.calf-compressor .calf-control-group.b .knob .knob2 {
+    margin: auto;
+}
+.calf-compressor .pull-right {
+    float: right !important;
+}
+/*bars left*/
+.calf-compressor .groups-bar-left {
+    background: url(/resources/img/side_w.png{{{ns}}}) repeat-y;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 56px;
+}
+
+.calf-compressor .groups-bar-left .top {
+    background: url(/resources/img/side_nw.png{{{ns}}});
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 56px;
+}
+.calf-compressor .groups-bar-left .bottom {
+    background: url(/resources/img/side_sw.png{{{ns}}});
+    height: 36px;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    width: 56px;
+}
+
+/* bars right */
+.calf-compressor .groups-bar-right {
+    background: url(/resources/img/side_e.png{{{ns}}}) repeat-y;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 56px;
+}
+
+.calf-compressor .groups-bar-right .top {
+    background: url(/resources/img/side_ne.png{{{ns}}});
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 56px;
+}
+
+.calf-compressor .groups-bar-right .bottom {
+    background: url(/resources/img/side_se.png{{{ns}}});
+    height: 36px;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    width: 56px;
+}
+.calf-compressor .groups-bar-right .logo {
+    background: url(/resources/img/side_e_logo.png{{{ns}}});
+    height: 90px;
+    left: 0;
+    position: absolute;
+    bottom: 36px;
+    width: 56px;
+}
+
+/* cols */
+
+.calf-compressor .border-solid-and-radius {
+    border: solid 1px #FFF;
+    border-radius: 7px;
+}
+.calf-compressor .title-of-cols {
+    background: #384454;
+    color: #FFF;
+    font-size: 13px;
+    left: 6px;
+    padding: 0 5px;
+    position: absolute;
+    top: -11px;
+}
+
+/* knob */
+
+.calf-compressor .knob {
+    cursor: pointer;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+}
+.calf-compressor .knob1 {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+}
+.calf-compressor .knob1-1 {
+    background: url(/resources/img/knob1-1.png{{{ns}}});
+    height: 20px;
+    width: 20px;
+}
+.calf-compressor .knob1-2 {
+    background: url(/resources/img/knob1-2.png{{{ns}}});
+    height: 20px;
+    width: 20px;
+}
+.calf-compressor .knob1-3 {
+    background: url(/resources/img/knob1-3.png{{{ns}}});
+    height: 20px;
+    width: 20px;
+}
+.calf-compressor .knob1-4 {
+    background: url(/resources/img/knob1-4.png{{{ns}}});
+    height: 20px;
+    width: 20px;
+}
+.calf-compressor .knob2 {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+}
+.calf-compressor .knob2-1 {
+    background: url(/resources/img/knob2-1.png{{{ns}}});
+}
+.calf-compressor .knob2-2 {
+    background: url(/resources/img/knob2-2.png{{{ns}}});
+}
+.calf-compressor .knob2-3 {
+    background: url(/resources/img/knob2-3.png{{{ns}}});
+}
+.calf-compressor .knob2-4 {
+    background: url(/resources/img/knob2-4.png{{{ns}}});
+}
+.calf-compressor .knob3 {
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background: url(/resources/img/knob3.png{{{ns}}});
+}
+.calf-compressor .knob4 {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+.calf-compressor .knob4-1 {
+    background: url(/resources/img/knob4-1.png{{{ns}}});
+}
+.calf-compressor .knob4-2 {
+    background: url(/resources/img/knob4-2.png{{{ns}}});
+}
+.calf-compressor .knob4-3 {
+    background: url(/resources/img/knob4-3.png{{{ns}}});
+}
+.calf-compressor .knob4-4 {
+    background: url(/resources/img/knob4-4.png{{{ns}}});
+}
+.calf-compressor .knob5 {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.calf-compressor .knob5-1 {
+    background: url(/resources/img/knob5-1.png{{{ns}}});
+}
+.calf-compressor .knob5-2 {
+    background: url(/resources/img/knob5-2.png{{{ns}}});
+}
+.calf-compressor .knob5-3 {
+    background: url(/resources/img/knob5-3.png{{{ns}}});
+}
+.calf-compressor .knob5-4 {
+    background: url(/resources/img/knob5-4.png{{{ns}}});
+}
+
+/* titles of things */
+
+.calf-compressor .title-field {
+    color: #FFF;
+    font-size: 10px;
+}
+.calf-compressor .toggle1-silver {
+    background: url(/resources/img/toggle1_silver.png{{{ns}}});
+    height: 20px;
+    position: absolute;
+    width: 30px;
+}
+
+.calf-compressor .toggle2_silver-silver {
+    background: url(/resources/img/toggle2_silver.png{{{ns}}});
+    height: 40px;
+    position: absolute;
+    width: 60px;
+}
+
+.calf-compressor .knob1 .title-knob1-top,
+.calf-compressor .knob2 .title-knob2-top,
+.calf-compressor .knob3 .title-knob3-top,
+.calf-compressor .knob4 .title-knob4-top,
+.calf-compressor .knob5 .title-knob5-top,
+.calf-compressor .knob1 .title-knob1-bottom,
+.calf-compressor .knob2 .title-knob2-bottom,
+.calf-compressor .knob3 .title-knob3-bottom,
+.calf-compressor .knob4 .title-knob4-bottom,
+.calf-compressor .knob5 .title-knob5-bottom {
+    color: #FFFFFF;
+    font-size: 11px;
+    text-align: center;
+}
+
+/* Lines */
+.calf-compressor .line-cols-all {
+    position: absolute;
+}
+.calf-compressor span.value-lines {
+    font-size: 11px;
+    left: 0;
+    right: 0;
+    top: -15px;
+    text-align: center;
+}
+/* Slider */
+/* Screw */
+
+.calf-compressor .screw_min {
+    background: url(/resources/img/screw1.png{{{ns}}});
+    background-size: 15px;
+    height: 15px;
+    position: absolute;
+    width: 15px;
+    top: -7px;
+
+}
+/* titles of things */
+.calf-compressor .title-fild-bottom {
+    font-size: 12px;
+}
+
+/* button of bypass */
+
+.calf-compressor .button-bypass {
+    background: url(/resources/img/toggle2_silver.png{{{ns}}});
+    height: 40px;
+    position: absolute;
+    width: 60px;
+}
+/* start specific model rules */
+
+.calf-compressor {
+    height: 480px;
+    width: 360px !important;
+}
+
+.calf-compressor .calf-control-group.top {
+    width: 406px;
+    height: 116px;
+    margin-left: 111px;
+}
+.calf-compressor .calf-control-group.sides {
+    width: 100px;
+}
+.calf-compressor .border-solid-and-radius {
+    height: 112px;
+    margin-left: 70px;
+    bottom: 10px;
+}
+.calf-compressor .knob {
+    margin-left: 28px;
+}
+.calf-compressor .slider {
+    float: left;
+    font-size: 10px;
+}
+.calf-compressor .toggle {
+    font-size: 10px;
+    text-align: center;
+}
+.calf-compressor .toggle .sw1 {
+    background-image: url(/resources/img/toggle_comp1.png{{{ns}}});
+    margin: auto;
+    height: 25px;
+    width: 222px;
+    cursor: pointer;
+}
+.calf-compressor .toggle .sw2 {
+    background-image: url(/resources/img/toggle_comp2.png{{{ns}}});
+    margin: auto;
+    height: 25px;
+    width: 222px;
+    cursor: pointer;
+}
+
+.calf-compressor .toggle .off {
+    background-position: 0 top !important;
+}
+.calf-compressor .toggle .on {
+    background-position: 0 bottom !important;
+}
+
+.calf-compressor .slider-horiz {
+    background: url(/resources/img/sliders-vert-disable2.png{{{ns}}});
+    background-size: auto 114px;
+    height: 114px;
+    margin: auto;
+    width: 24px;
+    cursor: pointer;
+}
+
+.calf-compressor .slider small {
+    float: left;
+    display: inline;
+    margin: -16px 0 0 50px;
+    line-height: 16px;
+    font-style: italic
+}
+.calf-compressor .display {
+    background: url(/resources/img/combo-sm.png{{{ns}}});
+    top: 181px;
+    background-size: 50px auto;
+    height: 28px;
+    margin-left: -10px;
+    position: absolute;
+    width: 50px;
+    color: black;
+    font-size: 11px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.calf-compressor .knob,
+.calf-compressor .slider-horiz,
+.calf-compressor .tubeh2-off,
+.calf-compressor .freq {
+    z-index: 99999;
+}
+
+/* Input/Output */
+.calf-compressor .calf-pedal-input {
+    left:-46px !important;
+ }
+.calf-compressor .calf-pedal-output {
+    right:-44px !important;
+}

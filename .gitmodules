@@ -49,3 +49,6 @@
 [submodule "modep-lv2-setbfree/src"]
 	path = modep-lv2-setbfree/src
 	url = https://github.com/BlokasLabs/setBfree.git
+[submodule "modep-lv2-calf/src"]
+	path = modep-lv2-calf/src
+	url = https://github.com/BlokasLabs/calf
