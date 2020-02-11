@@ -1,0 +1,13 @@
+Source: modep-lv2-infamousplugins
+Section: sound
+Priority: optional
+Maintainer: Blokas <hello@blokas.io>
+Build-Depends: cmake, debhelper (>=11~), libfftw3-dev, libzita-resampler-dev
+Standards-Version: 4.1.4
+Homepage: https://blokas.io/modep
+
+Package: modep-lv2-infamousplugins
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Infamous Plugins deb

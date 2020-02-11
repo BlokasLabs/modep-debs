@@ -52,3 +52,6 @@
 [submodule "modep-lv2-calf/src"]
 	path = modep-lv2-calf/src
 	url = https://github.com/BlokasLabs/calf
+[submodule "modep-lv2-infamousplugins/src"]
+	path = modep-lv2-infamousplugins/src
+	url = https://github.com/BlokasLabs/infamousPlugins
