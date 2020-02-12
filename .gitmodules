@@ -58,3 +58,6 @@
 [submodule "modep-lv2-fomp/src"]
 	path = modep-lv2-fomp/src
 	url = https://github.com/BlokasLabs/fomp.lv2
+[submodule "modep-lv2-guitarix/src"]
+	path = modep-lv2-guitarix/src
+	url = https://github.com/BlokasLabs/guitarix

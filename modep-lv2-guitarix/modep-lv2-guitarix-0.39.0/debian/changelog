@@ -1,0 +1,5 @@
+modep-lv2-guitarix (0.39.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Wed, 12 Feb 2020 09:10:55 +0000

@@ -1,0 +1,26 @@
+#!/usr/bin/make -f
+# You must remove unused comment lines for the released package.
+#export DH_VERBOSE = 1
+#export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+#export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
+#export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
+
+%:
+	dh $@
+
+override_dh_clean:
+	cd trunk && ./waf configure --lv2dir=/usr/modep/lv2 --no-lv2-gui --disable-sse --no-faust --no-standalone --prefix=/usr --mod-lv2
+	cd trunk && ./waf clean
+	dh_clean
+
+override_dh_auto_configure:
+	cd trunk && ./waf configure --lv2dir=/usr/modep/lv2 --no-lv2-gui --disable-sse --no-faust --no-standalone --prefix=/usr --mod-lv2
+
+override_dh_auto_build:
+	cd trunk && ./waf build -j4
+
+override_dh_auto_install:
+	cd trunk && ./waf install -j1 --destdir=$(CURDIR)/debian/modep-lv2-guitarix
+	cd $(CURDIR)/debian/modep-lv2-guitarix/usr/modep/lv2 && rm -r gx_wah.lv2 gx_colwah.lv2 gxtape_st.lv2 gx_w20.lv2 gx_bmp.lv2 gx_bossds1.lv2 \
+		gxmetal_amp.lv2 gxmetal_head.lv2 gx_mole.lv2 gx_muff.lv2 gx_mbcompressor.lv2 gx_aclipper.lv2 gxtape.lv2 gxts9.lv2 gxtuner.lv2 \
+		gx_zita_rev1.lv2 gx_gcb_95.lv2 gx_mxrdist.lv2
