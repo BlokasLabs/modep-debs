@@ -64,3 +64,6 @@
 [submodule "modep-lv2-shiroplugins"]
 	path = modep-lv2-shiroplugins/src
 	url = https://github.com/BlokasLabs/SHIRO-plugins
+[submodule "modep-lv2-invada-studio/src"]
+	path = modep-lv2-invada-studio/src
+	url = https://github.com/BlokasLabs/invada-studio
