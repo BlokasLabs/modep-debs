@@ -35,7 +35,7 @@
 	path = modep-lv2-gx-slowgear/src
 	url = https://github.com/BlokasLabs/GxSlowGear.lv2
 [submodule "modep-lv2-gx-switch-less-wah/src"]
-	path = modep-lv2-gx-switch-less-wah/src
+	path = modep-lv2-gx-switchless-wah/src
 	url = https://github.com/BlokasLabs/GxSwitchlessWah.lv2
 [submodule "modep-lv2-amsynth/src"]
 	path = modep-lv2-amsynth/src
