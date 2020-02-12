@@ -1,0 +1,5 @@
+modep-lv2-shiroplugins (1.0.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Wed, 12 Feb 2020 12:09:13 +0000

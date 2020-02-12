@@ -61,3 +61,6 @@
 [submodule "modep-lv2-guitarix/src"]
 	path = modep-lv2-guitarix/src
 	url = https://github.com/BlokasLabs/guitarix
+[submodule "modep-lv2-shiroplugins"]
+	path = modep-lv2-shiroplugins/src
+	url = https://github.com/BlokasLabs/SHIRO-plugins
