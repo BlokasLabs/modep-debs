@@ -1,0 +1,14 @@
+Source: modep-lv2-fomp
+Section: sound
+Priority: optional
+Maintainer: Blokas <hello@blokas.io>
+Build-Depends: debhelper (>=11~)
+Standards-Version: 4.1.4
+Homepage: https://blokas.io/modep
+
+Package: modep-lv2-fomp
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: This is an LV2 port of the MCP, VCO, FIL, and WAH plugins by Fons Adriaensen.
+

@@ -55,3 +55,6 @@
 [submodule "modep-lv2-infamousplugins/src"]
 	path = modep-lv2-infamousplugins/src
 	url = https://github.com/BlokasLabs/infamousPlugins
+[submodule "modep-lv2-fomp/src"]
+	path = modep-lv2-fomp/src
+	url = https://github.com/BlokasLabs/fomp.lv2
