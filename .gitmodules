@@ -73,3 +73,6 @@
 [submodule "modep-lv2-rkrlv2/src"]
 	path = modep-lv2-rkrlv2/src
 	url = https://github.com/BlokasLabs/rkrlv2
+[submodule "modep-lv2-sooperlooper"]
+	path = modep-lv2-sooperlooper/src
+	url = https://github.com/BlokasLabs/sooperlooper-lv2-plugin
