@@ -79,3 +79,6 @@
 [submodule "modep-lv2-stepseq/src"]
 	path = modep-lv2-stepseq/src
 	url = https://github.com/BlokasLabs/stepseq.lv2
+[submodule "modep-lv2-tinygain/src"]
+	path = modep-lv2-tinygain/src
+	url = https://github.com/BlokasLabs/tinyamp.lv2
