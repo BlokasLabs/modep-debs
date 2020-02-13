@@ -1,0 +1,13 @@
+Source: modep-lv2-rkrlv2
+Section: sound
+Priority: optional
+Maintainer: Blokas <hello@blokas.io>
+Build-Depends: cmake, debhelper (>=11~), libsamplerate0-dev
+Standards-Version: 4.1.4
+Homepage: https://blokas.io/modep
+
+Package: modep-lv2-rkrlv2
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: This project is the rakarrack effects ported to LV2 plugins.
