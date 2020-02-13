@@ -76,3 +76,6 @@
 [submodule "modep-lv2-sooperlooper"]
 	path = modep-lv2-sooperlooper/src
 	url = https://github.com/BlokasLabs/sooperlooper-lv2-plugin
+[submodule "modep-lv2-stepseq/src"]
+	path = modep-lv2-stepseq/src
+	url = https://github.com/BlokasLabs/stepseq.lv2
