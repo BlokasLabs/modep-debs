@@ -11,6 +11,7 @@
 override_dh_clean:
 	./waf configure --lv2dir=/usr/modep/lv2 --prefix=/usr
 	./waf clean
+	dh_clean
 
 override_dh_auto_configure:
 	./waf configure --lv2dir=/usr/modep/lv2 --prefix=/usr
@@ -19,4 +20,4 @@ override_dh_auto_build:
 	./waf build -j4
 
 override_dh_auto_install:
-	./waf install -j1 --destdir=$(CURDIR)/debian/modep-mda-lv2
+	./waf install -j1 --destdir=$(CURDIR)/debian/modep-lv2-mda

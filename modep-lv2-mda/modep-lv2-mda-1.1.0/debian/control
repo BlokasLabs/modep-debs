@@ -1,4 +1,4 @@
-Source: modep-mda-lv2
+Source: modep-lv2-mda
 Section: audio
 Priority: optional
 Maintainer: Blokas <hello@blokas.io>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>=11~)
 Standards-Version: 4.1.4
 Homepage: https://blokas.io/modep
 
-Package: modep-mda-lv2
+Package: modep-lv2-mda
 Architecture: any
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}

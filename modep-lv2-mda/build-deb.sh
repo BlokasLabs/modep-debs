@@ -5,7 +5,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR
 source ../env.sh
 
-PACKAGE=modep-mda-lv2
+PACKAGE=modep-lv2-mda
 VERSION=1.1.0
 
 PKGFOLDER=${PACKAGE}-${VERSION}
