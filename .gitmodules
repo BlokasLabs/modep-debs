@@ -100,3 +100,6 @@
 [submodule "modep-lv2-midigen/modep-lv2-xfade/src"]
 	path = modep-lv2-xfade/src
 	url = https://github.com/BlokasLabs/xfade.lv2
+[submodule "modep-lv2-tuna/src"]
+	path = modep-lv2-tuna/src
+	url = https://github.com/BlokasLabs/tuna.lv2

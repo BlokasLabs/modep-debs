@@ -1,0 +1,5 @@
+modep-lv2-tuna (0.5.2-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 13 Feb 2020 11:54:28 +0000
