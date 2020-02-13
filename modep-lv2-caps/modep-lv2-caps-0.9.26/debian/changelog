@@ -1,4 +1,4 @@
-modep-caps-lv2 (0.9.26-1) buster; urgency=low
+modep-lv2-caps (0.9.26-1) buster; urgency=low
 
   * Initial release.
 

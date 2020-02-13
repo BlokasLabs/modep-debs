@@ -1,4 +1,4 @@
-Source: modep-caps-lv2
+Source: modep-lv2-caps
 Section: audio
 Priority: optional
 Maintainer: Blokas <hello@blokas.io>
@@ -6,8 +6,8 @@ Build-Depends: debhelper (>=11~)
 Standards-Version: 4.1.4
 Homepage: https://blokas.io/modep
 
-Package: modep-caps-lv2
+Package: modep-lv2-caps
 Architecture: any
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: modep-caps-lv2 plugin suite for MODEP
+Description: modep-lv2-caps plugin suite for MODEP
