@@ -97,3 +97,6 @@
 [submodule "modep-lv2-midigen/src"]
 	path = modep-lv2-midigen/src
 	url = https://github.com/BlokasLabs/midigen.lv2
+[submodule "modep-lv2-midigen/modep-lv2-xfade/src"]
+	path = modep-lv2-xfade/src
+	url = https://github.com/BlokasLabs/xfade.lv2

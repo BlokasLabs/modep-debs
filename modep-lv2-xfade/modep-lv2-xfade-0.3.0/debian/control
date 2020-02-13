@@ -1,0 +1,13 @@
+Source: modep-lv2-xfade
+Section: sound
+Priority: optional
+Maintainer: Blokas <hello@blokas.io>
+Build-Depends: debhelper (>=11~)
+Standards-Version: 4.1.4
+Homepage: https://blokas.io/modep
+
+Package: modep-lv2-xfade
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: xfade.lv2 is an audio-plugin for stereo cross-fading 2 x 2 input channels to 2 output channels.
