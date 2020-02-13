@@ -1,0 +1,5 @@
+modep-lv2-fat1 (0.6.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 13 Feb 2020 10:34:36 +0000

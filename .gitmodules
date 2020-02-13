@@ -82,3 +82,6 @@
 [submodule "modep-lv2-tinygain/src"]
 	path = modep-lv2-tinygain/src
 	url = https://github.com/BlokasLabs/tinyamp.lv2
+[submodule "modep-lv2-fat1/src"]
+	path = modep-lv2-fat1/src
+	url = https://github.com/BlokasLabs/fat1.lv2
