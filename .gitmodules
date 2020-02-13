@@ -91,3 +91,9 @@
 [submodule "modep-lv2-mtc/src"]
 	path = modep-lv2-mtc/src
 	url = https://github.com/BlokasLabs/mtc.lv2
+[submodule "modep-lv2-mclk/src"]
+	path = modep-lv2-mclk/src
+	url = https://github.com/BlokasLabs/mclk.lv2
+[submodule "modep-lv2-midigen/src"]
+	path = modep-lv2-midigen/src
+	url = https://github.com/BlokasLabs/midigen.lv2
