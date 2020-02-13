@@ -6,7 +6,7 @@ cd $DIR
 source ../env.sh
 
 PACKAGE=modep-lv2-freaked
-VERSION=1.0.0
+VERSION=0.0.1
 
 PKGFOLDER=${PACKAGE}-${VERSION}
 
