@@ -1,0 +1,13 @@
+Source: modep-lv2-mod-pitchshifter
+Section: sound
+Priority: optional
+Maintainer: Blokas <hello@blokas.io>
+Build-Depends: debhelper (>=11~), libarmadillo-dev
+Standards-Version: 4.1.4
+Homepage: https://blokas.io/modep
+
+Package: modep-lv2-mod-pitchshifter
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Pitch Shifter lv2 effects

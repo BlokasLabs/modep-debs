@@ -109,3 +109,6 @@
 [submodule "modep-lv2-zam-plugins/src"]
 	path = modep-lv2-zam-plugins/src
 	url = https://github.com/BlokasLabs/zam-plugins
+[submodule "modep-lv2-mod-pitchshifter/src"]
+	path = modep-lv2-mod-pitchshifter/src
+	url = https://github.com/BlokasLabs/mod-pitchshifter/

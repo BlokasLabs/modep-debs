@@ -1,0 +1,5 @@
+modep-lv2-mod-pitchshifter (1.0.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 13 Feb 2020 13:56:46 +0000
