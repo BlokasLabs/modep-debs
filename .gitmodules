@@ -67,3 +67,6 @@
 [submodule "modep-lv2-invada-studio/src"]
 	path = modep-lv2-invada-studio/src
 	url = https://github.com/BlokasLabs/invada-studio
+[submodule "modep-lv2-dpf-plugins/src"]
+	path = modep-lv2-dpf-plugins/src
+	url = https://github.com/BlokasLabs/DPF-plugins
