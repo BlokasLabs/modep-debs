@@ -1,0 +1,13 @@
+Source: modep-lv2-midigen
+Section: sound
+Priority: optional
+Maintainer: Blokas <hello@blokas.io>
+Build-Depends: debhelper (>=11~)
+Standards-Version: 4.1.4
+Homepage: https://blokas.io/modep
+
+Package: modep-lv2-midigen
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: midigen.lv2 is simple test-sequence generator.
