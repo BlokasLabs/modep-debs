@@ -85,3 +85,9 @@
 [submodule "modep-lv2-fat1/src"]
 	path = modep-lv2-fat1/src
 	url = https://github.com/BlokasLabs/fat1.lv2
+[submodule "modep-lv2-fil4/src"]
+	path = modep-lv2-fil4/src
+	url = https://github.com/BlokasLabs/fil4.lv2
+[submodule "modep-lv2-mtc/src"]
+	path = modep-lv2-mtc/src
+	url = https://github.com/BlokasLabs/mtc.lv2

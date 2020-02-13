@@ -1,0 +1,13 @@
+Source: modep-lv2-fil4
+Section: sound
+Priority: optional
+Maintainer: Blokas <hello@blokas.io>
+Build-Depends: debhelper (>=11~)
+Standards-Version: 4.1.4
+Homepage: https://blokas.io/modep
+
+Package: modep-lv2-fil4
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: fil4.lv2 is a 4 band parametric equalizer with additional low+high shelf filters, Low and High-pass, as well as an optional, custom GUI displaying the transfer function and realtime signal spectrum or spectrogram.
