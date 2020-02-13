@@ -1,0 +1,5 @@
+modep-lv2-triceratops (0.3.2-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 13 Feb 2020 12:21:29 +0000

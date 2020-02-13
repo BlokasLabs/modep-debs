@@ -103,3 +103,6 @@
 [submodule "modep-lv2-tuna/src"]
 	path = modep-lv2-tuna/src
 	url = https://github.com/BlokasLabs/tuna.lv2
+[submodule "modep-lv2-triceratops/src"]
+	path = modep-lv2-triceratops/src
+	url = https://github.com/BlokasLabs/triceratops.lv2
