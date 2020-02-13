@@ -106,3 +106,6 @@
 [submodule "modep-lv2-triceratops/src"]
 	path = modep-lv2-triceratops/src
 	url = https://github.com/BlokasLabs/triceratops.lv2
+[submodule "modep-lv2-zam-plugins/src"]
+	path = modep-lv2-zam-plugins/src
+	url = https://github.com/BlokasLabs/zam-plugins

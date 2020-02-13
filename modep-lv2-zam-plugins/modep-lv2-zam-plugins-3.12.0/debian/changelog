@@ -1,0 +1,5 @@
+modep-lv2-zam-plugins (3.12.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 13 Feb 2020 12:56:19 +0000
