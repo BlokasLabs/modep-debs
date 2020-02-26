@@ -112,3 +112,6 @@
 [submodule "modep-lv2-mod-pitchshifter/src"]
 	path = modep-lv2-mod-pitchshifter/src
 	url = https://github.com/BlokasLabs/mod-pitchshifter/
+[submodule "modep-mod-midi-merger/src"]
+	path = modep-mod-midi-merger/src
+	url = https://github.com/BlokasLabs/mod-midi-merger

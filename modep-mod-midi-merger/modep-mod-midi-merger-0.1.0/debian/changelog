@@ -1,0 +1,5 @@
+modep-mod-midi-merger (0.1.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Wed, 26 Feb 2020 22:46:01 +0000
