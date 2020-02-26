@@ -18,6 +18,10 @@ override_dh_auto_install:
 	mv $(CURDIR)/debian/modep-mod-midi-merger/tmp/* $(CURDIR)/debian/modep-mod-midi-merger/$(shell pkg-config --variable=libdir jack)/jack/
 	rm -r $(CURDIR)/debian/modep-mod-midi-merger/tmp
 
+override_dh_installsystemd:
+	dh_installsystemd --name=modep-mod-midi-merger
+	dh_installsystemd --name=modep-mod-midi-broadcaster
+
 #override_dh_auto_configure:
 #	dh_auto_configure -- \
 #	      -DCMAKE_LIBRARY_ARCHITECTURE="$(DEB_TARGET_MULTIARCH)"

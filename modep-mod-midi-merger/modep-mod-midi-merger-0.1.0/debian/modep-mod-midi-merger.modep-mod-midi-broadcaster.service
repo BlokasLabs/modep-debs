@@ -1,0 +1,17 @@
+[Unit]
+Description=MOD MIDI Broadcaster
+After=jack.service
+Requires=jack.service
+
+[Service]
+RemainAfterExit=yes
+Environment=JACK_PROMISCUOUS_SERVER=jack
+ExecStart=/usr/bin/jack_load mod-midi-broadcaster
+ExecStop=/usr/bin/jack_unload mod-midi-broadcaster
+User=modep
+Group=modep
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
