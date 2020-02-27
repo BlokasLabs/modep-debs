@@ -115,3 +115,6 @@
 [submodule "modep-mod-midi-merger/src"]
 	path = modep-mod-midi-merger/src
 	url = https://github.com/BlokasLabs/mod-midi-merger
+[submodule "modep-btn-scripts/src"]
+	path = modep-btn-scripts/src
+	url = https://github.com/BlokasLabs/modep-btn-scripts
