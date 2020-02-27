@@ -2,6 +2,7 @@
 Description=MOD-UI
 After=modep-mod-host.service
 Requires=modep-mod-host.service
+Wants=modep-mod-midi-merger.service modep-mod-midi-broadcaster.service
 
 [Service]
 LimitRTPRIO=95
