@@ -16,6 +16,8 @@ override_dh_auto_install:
 	# Remove broken plugins or ones without modgui
 	bash -c "rm -r $(CURDIR)/debian/modep-lv2-zam-plugins/usr/modep/lv2/{ZamDynamicEQ,ZamGrains,ZamHeadX2,ZamPhono,ZamVerb}.lv2"
 	rm -r $(CURDIR)/debian/modep-lv2-zam-plugins/usr/bin
+	rm -r $(CURDIR)/debian/modep-lv2-zam-plugins/usr/modep/ladspa
+	rm -r $(CURDIR)/debian/modep-lv2-zam-plugins/usr/modep/vst
 
 #override_dh_install:
 #	dh_install --list-missing -X.pyc -X.pyo
