@@ -16,4 +16,4 @@ tar -czf ${PKGFOLDER}.tar.gz --exclude .git ${PKGFOLDER}
 
 cd ${PKGFOLDER}
 
-#echo y | debuild -b -us -uc
+echo y | debuild -b -us -uc
