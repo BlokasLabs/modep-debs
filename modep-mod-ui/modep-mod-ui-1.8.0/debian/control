@@ -10,7 +10,7 @@ Package: modep-mod-ui
 X-Python3-Version: >= 3.2
 Architecture: all
 Multi-Arch: foreign
-Depends: modep-common (>= 1.0.0), modep-mod-host (>= 2020.02.05),
+Depends: modep-common (>= 1.0.0), modep-mod-host (>= 1.8.0), modep-mod-midi-merger (>= 0.1.0)
          ${misc:Depends},
          ${python3:Depends},
          authbind (>= 2.1.2),
