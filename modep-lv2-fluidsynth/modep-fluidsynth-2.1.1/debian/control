@@ -2,7 +2,7 @@ Source: modep-fluidsynth
 Section: audio
 Priority: optional
 Maintainer: Blokas <hello@blokas.io>
-Build-Depends: cmake, debhelper (>=11~)
+Build-Depends: cmake, debhelper (>=11~), libglib2.0-dev
 Standards-Version: 4.1.4
 Homepage: https://blokas.io/modep
 

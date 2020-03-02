@@ -6,7 +6,7 @@ cd $DIR
 source ../env.sh
 
 PACKAGE=modep-fluidsynth
-VERSION=2.1.0
+VERSION=2.1.1
 
 PKGFOLDER=${PACKAGE}-${VERSION}
 
