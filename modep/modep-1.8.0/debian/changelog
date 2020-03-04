@@ -1,0 +1,5 @@
+modep (1.8.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Wed, 04 Mar 2020 23:05:24 +0000

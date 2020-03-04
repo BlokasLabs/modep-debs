@@ -1,0 +1,14 @@
+Source: modep
+Section: sound
+Priority: optional
+Maintainer: Blokas <hello@blokas.io>
+Build-Depends: debhelper (>=11~)
+Standards-Version: 4.1.4
+Homepage: https://blokas.io/modep/
+
+Package: modep
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}, modep-common (>= 1.0.0-0), modep-mod-host (>= 1.8.0-1), modep-mod-midi-merger (>= 0.1.0-1), modep-mod-ui (>= 1.8.0-1)
+Recommends: modep-touchosc2midi (>= 1.0.0-1), modep-btn-scripts (>= 1.1.0-1), modep-fluidsynth (>= 2.1.0-1), modep-lv2-amsynth (>= 1.9.0-1), modep-lv2-artyfx (>= 1.3.0-1), modep-lv2-bolliedelay (>= 0.2.6-1), modep-lv2-calf (>= 0.90.3-1), modep-lv2-caps (>= 0.9.26-1), modep-lv2-dpf-plugins (>= 1.3.0-1), modep-lv2-fat1 (>= 0.6.0-1), modep-lv2-fil4 (>= 0.7.1-1), modep-lv2-fluidplug (>= 1.0.0-1), modep-lv2-fomp (>= 1.1.0-1), modep-lv2-freaked (>= 0.0.1-1), modep-lv2-guitarix (>= 0.39.0-1), modep-lv2-gx-slowgear (>= 0.5.0-1), modep-lv2-gx-switchless-wah (>= 0.1.0-1), modep-lv2-infamousplugins (>= 0.3.0-1), modep-lv2-invada-studio (>= 0.0.1-1), modep-lv2-mclk (>= 0.2.1-1), modep-lv2-mda (>= 1.1.0-1), modep-lv2-midifilter (>= 0.6.2-1), modep-lv2-midigen (>= 0.3.0-1), modep-lv2-mod-distortion (>= 0.0.1-1), modep-lv2-mod-pitchshifter (>= 0.0.1-1), modep-lv2-mod-utilities (>= 0.0.1-1), modep-lv2-mtc (>= 0.2.1-1), modep-lv2-rkrlv2 (>= 0.3.0-1), modep-lv2-setbfree (>= 0.8.11-1), modep-lv2-shiroplugins (>= 0.0.1-1), modep-lv2-sooperlooper (>= 0.93.0-1), modep-lv2-stepseq (>= 0.6.0-1), modep-lv2-tap (>= 1.2.7-1), modep-lv2-tinygain (>= 0.3.1-1), modep-lv2-triceratops (>= 0.3.2-1), modep-lv2-tuna (>= 0.5.2-1), modep-lv2-xfade (>= 0.3.0-1), modep-lv2-zam-plugins (>= 3.12.0-1)
+Description: MODEP meta package
