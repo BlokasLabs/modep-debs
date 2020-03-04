@@ -1,0 +1,13 @@
+Source: modep-touchosc2midi
+Section: sound
+Priority: optional
+Maintainer: Blokas <hello@blokas.io>
+Build-Depends: debhelper (>=11~)
+Standards-Version: 4.1.4
+Homepage: https://blokas.io/modep
+
+Package: modep-touchosc2midi
+Architecture: any
+Multi-Arch: foreign
+Depends: modep-common (>= 1.0.0), amidithru (>= 1.0-1), touchosc2midi (>= 0.10.0-1), ${misc:Depends}, ${shlibs:Depends}
+Description: TouchOSC2MIDI integration for MODEP.

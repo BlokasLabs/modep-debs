@@ -1,0 +1,5 @@
+modep-touchosc2midi (1.0.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Wed, 04 Mar 2020 20:35:05 +0000

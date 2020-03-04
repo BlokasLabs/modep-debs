@@ -118,3 +118,6 @@
 [submodule "modep-btn-scripts/src"]
 	path = modep-btn-scripts/src
 	url = https://github.com/BlokasLabs/modep-btn-scripts
+[submodule "modep-touchosc2midi/src"]
+	path = modep-touchosc2midi/src
+	url = https://github.com/BlokasLabs/modep-touchosc2midi

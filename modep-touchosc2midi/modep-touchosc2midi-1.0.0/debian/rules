@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+# You must remove unused comment lines for the released package.
+#export DH_VERBOSE = 1
+#export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+#export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
+#export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
+
+%:
+	dh $@
+
+override_dh_clean:
+	rm -f debian/*.service
+	dh_clean
+
+override_dh_installsystemd:
+	mkdir -p $(CURDIR)/debian/modep-touchosc2midi/usr/modep/scripts
+	cp $(CURDIR)/*.sh $(CURDIR)/debian/modep-touchosc2midi/usr/modep/scripts
+	cp $(CURDIR)/*.service $(CURDIR)/debian/
+	dh_installsystemd --name=modep-amidithru --no-enable --no-start
+	dh_installsystemd --name=modep-touchosc2midi --no-enable --no-start
