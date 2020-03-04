@@ -1,2 +1,3 @@
 adduser --no-create-home --system --group modep
 adduser modep jack
+adduser modep audio
