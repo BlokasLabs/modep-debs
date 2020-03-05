@@ -1,0 +1,13 @@
+Source: modep-demo-content
+Section: sound
+Priority: optional
+Maintainer: Blokas <hello@blokas.io>
+Build-Depends: debhelper (>=11~)
+Standards-Version: 4.1.4
+Homepage: https://blokas.io/modep
+
+Package: modep-demo-content
+Architecture: any
+Multi-Arch: foreign
+Depends: modep-mod-ui, modep-common, ${misc:Depends}, ${shlibs:Depends}
+Description: Demo bank and pedalboards.

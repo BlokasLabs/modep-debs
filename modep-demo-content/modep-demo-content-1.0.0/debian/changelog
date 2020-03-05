@@ -1,0 +1,5 @@
+modep-demo-content (1.0.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 05 Mar 2020 21:24:35 +0000

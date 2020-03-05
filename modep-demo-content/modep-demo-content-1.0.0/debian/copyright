@@ -1,0 +1,31 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: modep-demo-content
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     banks.json
+           pedalboards/DISTORTION.pedalboard/DISTORTION.ttl
+           pedalboards/DISTORTION.pedalboard/addressings.json
+           pedalboards/DISTORTION.pedalboard/manifest.ttl
+           pedalboards/DISTORTION.pedalboard/screenshot.png
+           pedalboards/DISTORTION.pedalboard/thumbnail.png
+           pedalboards/ORGANS.pedalboard/ORGANS.ttl
+           pedalboards/ORGANS.pedalboard/addressings.json
+           pedalboards/ORGANS.pedalboard/manifest.ttl
+           pedalboards/ORGANS.pedalboard/screenshot.png
+           pedalboards/ORGANS.pedalboard/thumbnail.png
+           pedalboards/SEQUENCED_DRUMS.pedalboard/SEQUENCED_DRUMS.ttl
+           pedalboards/SEQUENCED_DRUMS.pedalboard/addressings.json
+           pedalboards/SEQUENCED_DRUMS.pedalboard/manifest.ttl
+           pedalboards/SEQUENCED_DRUMS.pedalboard/screenshot.png
+           pedalboards/SEQUENCED_DRUMS.pedalboard/thumbnail.png
+           pedalboards/default.pedalboard/manifest.ttl
+           pedalboards/default.pedalboard/screenshot.png
+           pedalboards/default.pedalboard/thumbnail.png
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.

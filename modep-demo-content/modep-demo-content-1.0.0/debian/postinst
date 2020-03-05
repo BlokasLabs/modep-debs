@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cp -r /usr/share/modep/* /var/modep/
+chown modep:modep /var/modep/banks.json
+chown -R modep:modep /var/modep/pedalboards
+
+#DEBHELPER#
