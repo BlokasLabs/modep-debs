@@ -2,6 +2,7 @@
 Description=MOD MIDI Broadcaster
 After=jack.service
 Requires=jack.service
+BindsTo=jack.service
 
 [Service]
 RemainAfterExit=yes

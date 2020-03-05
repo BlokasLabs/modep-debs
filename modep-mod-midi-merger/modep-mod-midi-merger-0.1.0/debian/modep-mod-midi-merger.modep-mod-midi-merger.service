@@ -2,6 +2,7 @@
 Description=MOD MIDI Merger
 After=jack.service
 Requires=jack.service
+BindsTo=jack.service
 
 [Service]
 RemainAfterExit=yes
