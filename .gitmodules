@@ -121,3 +121,6 @@
 [submodule "modep-touchosc2midi/src"]
 	path = modep-touchosc2midi/src
 	url = https://github.com/BlokasLabs/modep-touchosc2midi
+[submodule "modep-ctl-scripts/src"]
+	path = modep-ctl-scripts/src
+	url = https://github.com/BlokasLabs/modep-ctl-scripts/
