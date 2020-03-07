@@ -2,7 +2,7 @@ Source: modep-lv2-guitarix
 Section: sound
 Priority: optional
 Maintainer: Blokas <hello@blokas.io>
-Build-Depends: debhelper (>=11~), libglibmm-2.4-dev, libzita-convolver-dev, libeigen3-dev
+Build-Depends: debhelper (>=11~), libglibmm-2.4-dev, libzita-convolver-dev, libeigen3-dev, libzita-resampler-dev
 Standards-Version: 4.1.4
 Homepage: https://blokas.io/modep
 
