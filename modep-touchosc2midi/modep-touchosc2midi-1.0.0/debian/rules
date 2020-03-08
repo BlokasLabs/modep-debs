@@ -17,4 +17,4 @@ override_dh_installsystemd:
 	cp $(CURDIR)/*.sh $(CURDIR)/debian/modep-touchosc2midi/usr/modep/scripts
 	cp $(CURDIR)/*.service $(CURDIR)/debian/
 	dh_installsystemd --name=modep-amidithru --no-enable --no-start
-	dh_installsystemd --name=modep-touchosc2midi --no-enable --no-start
+	dh_installsystemd --name=modep-touchosc2midi
