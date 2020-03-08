@@ -1,1 +1,23 @@
-[{"navigateFootswitches": false, "navigateChannel": 16, "pedalboards": [{"bundle": "/var/modep/pedalboards/default.pedalboard", "title": "Default"}, {"bundle": "/var/modep/pedalboards/DISTORTION.pedalboard", "title": "DISTORTION"}, {"bundle": "/var/modep/pedalboards/SEQUENCED_DRUMS.pedalboard", "title": "SEQUENCED_DRUMS"}, {"bundle": "/var/modep/pedalboards/ORGANS.pedalboard", "title": "ORGANS"}], "title": "The Button"}]
+[
+    {
+        "title": "The Button",
+        "pedalboards": [
+            {
+                "title": "Default",
+                "bundle": "/var/modep/pedalboards/default.pedalboard"
+            },
+            {
+                "title": "DISTORTION",
+                "bundle": "/var/modep/pedalboards/DISTORTION.pedalboard"
+            },
+            {
+                "title": "SEQUENCED_DRUMS",
+                "bundle": "/var/modep/pedalboards/SEQUENCED_DRUMS.pedalboard"
+            },
+            {
+                "title": "ORGANS",
+                "bundle": "/var/modep/pedalboards/ORGANS.pedalboard"
+            }
+        ]
+    }
+]
