@@ -2,7 +2,7 @@ Source: modep-mod-host
 Section: audio
 Priority: optional
 Maintainer: Giedrius Trainavičius <hello@blokas.io>
-Build-Depends: debhelper (>=11~)
+Build-Depends: debhelper (>=11~), libreadline-dev
 Standards-Version: 4.1.4
 Homepage: https://blokas.io/modep
 
