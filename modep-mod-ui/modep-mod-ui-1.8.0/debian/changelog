@@ -1,3 +1,9 @@
+modep-mod-ui (1.8.0-2) buster; urgency=low
+
+  * Fixed MIDI learn.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 23 Mar 2020 16:18:25 +0000
+
 modep-mod-ui (1.8.0-1) buster; urgency=low
 
   * Initial release.
