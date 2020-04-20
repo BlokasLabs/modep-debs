@@ -1,3 +1,9 @@
+modep-mod-ui (1.8.0-3) buster; urgency=low
+
+  * Fixed Snapshots button.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Tue, 24 Mar 2020 12:07:50 +0000
+
 modep-mod-ui (1.8.0-2) buster; urgency=low
 
   * Fixed MIDI learn.
