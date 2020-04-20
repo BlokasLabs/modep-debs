@@ -1,3 +1,9 @@
+modep-lv2-guitarix (0.39.0-2) buster; urgency=low
+
+  * Disable localization to avoid conflicts with regular Guitarix packages.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 20 Apr 2020 09:12:43 +0100
+
 modep-lv2-guitarix (0.39.0-1) buster; urgency=low
 
   * Initial release.

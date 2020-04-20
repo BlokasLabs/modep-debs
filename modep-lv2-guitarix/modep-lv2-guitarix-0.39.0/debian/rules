@@ -9,12 +9,12 @@
 	dh $@
 
 override_dh_clean:
-	cd trunk && ./waf configure --lv2dir=/usr/modep/lv2 --no-lv2-gui --disable-sse --no-faust --no-standalone --prefix=/usr --mod-lv2
+	cd trunk && ./waf configure --lv2dir=/usr/modep/lv2 --no-lv2-gui --disable-sse --no-faust --no-standalone --prefix=/usr --mod-lv2 --disable-nls
 	cd trunk && ./waf clean
 	dh_clean
 
 override_dh_auto_configure:
-	cd trunk && ./waf configure --lv2dir=/usr/modep/lv2 --no-lv2-gui --disable-sse --no-faust --no-standalone --prefix=/usr --mod-lv2
+	cd trunk && ./waf configure --lv2dir=/usr/modep/lv2 --no-lv2-gui --disable-sse --no-faust --no-standalone --prefix=/usr --mod-lv2 --disable-nls
 
 override_dh_auto_build:
 	cd trunk && ./waf build -j4
