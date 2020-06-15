@@ -1,0 +1,11 @@
+modep-lv2-bolliedelay (0.2.7-1) buster; urgency=low
+
+  * Fix for sync with external tempo.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 15 Jun 2020 11:19:32 +0100
+
+modep-lv2-bolliedelay (0.2.6-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Tue, 11 Feb 2020 09:01:35 +0000

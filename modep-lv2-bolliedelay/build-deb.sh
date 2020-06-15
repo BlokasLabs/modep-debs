@@ -6,7 +6,7 @@ cd $DIR
 source ../env.sh
 
 PACKAGE=modep-lv2-bolliedelay
-VERSION=0.2.6
+VERSION=0.2.7
 
 PKGFOLDER=${PACKAGE}-${VERSION}
 
