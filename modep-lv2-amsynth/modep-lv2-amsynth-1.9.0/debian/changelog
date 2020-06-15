@@ -1,3 +1,9 @@
+modep-lv2-amsynth (1.9.0-2) buster; urgency=low
+
+  * Removed unnecessary GUI files.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 15 Jun 2020 12:00:23 +0100
+
 modep-lv2-amsynth (1.9.0-1) buster; urgency=low
 
   * Initial release.
