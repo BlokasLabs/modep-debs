@@ -1,3 +1,9 @@
+modep-lv2-calf (0.90.3-2) buster; urgency=low
+
+  * Removed unnecessary .desktop file.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 15 Jun 2020 13:34:42 +0100
+
 modep-lv2-calf (0.90.3-1) buster; urgency=low
 
   * Initial release.
