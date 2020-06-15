@@ -124,3 +124,6 @@
 [submodule "modep-ctl-scripts/src"]
 	path = modep-ctl-scripts/src
 	url = https://github.com/BlokasLabs/modep-ctl-scripts/
+[submodule "libhylia/src"]
+	path = libhylia/src
+	url = https://github.com/BlokasLabs/Hylia
