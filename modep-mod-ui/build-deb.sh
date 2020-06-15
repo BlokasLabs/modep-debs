@@ -6,7 +6,7 @@ cd $DIR
 source ../env.sh
 
 PACKAGE=modep-mod-ui
-VERSION=1.8.0
+VERSION=1.8.1
 
 PKGFOLDER=${PACKAGE}-${VERSION}
 

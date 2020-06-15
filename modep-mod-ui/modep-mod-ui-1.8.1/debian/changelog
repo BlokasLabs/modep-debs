@@ -1,3 +1,9 @@
+modep-mod-ui (1.8.1-1) buster; urgency=low
+
+  * Show transport button.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 15 Jun 2020 11:31:53 +0100
+
 modep-mod-ui (1.8.0-3) buster; urgency=low
 
   * Fixed Snapshots button.
