@@ -1,3 +1,9 @@
+modep (1.8.0-2) buster; urgency=low
+
+  * MOD UI with Transport enabled.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 15 Jun 2020 14:16:05 +0100
+
 modep (1.8.0-1) buster; urgency=low
 
   * Initial release.
