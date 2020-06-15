@@ -1,3 +1,9 @@
+modep-mod-host (1.8.0-2) buster; urgency=low
+
+  * Built with Ableton Link support via libhylia.
+
+ -- Giedrius Trainavičius <hello@blokas.io>  Mon, 15 Jun 2020 14:04:58 +0100
+
 modep-mod-host (1.8.0-1) buster; urgency=low
 
   * Initial release.
