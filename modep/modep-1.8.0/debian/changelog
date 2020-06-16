@@ -1,3 +1,9 @@
+modep (1.8.0-3) buster; urgency=low
+
+  * Updated recommended lv2 plugin packages.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Tue, 16 Jun 2020 08:18:25 +0100
+
 modep (1.8.0-2) buster; urgency=low
 
   * MOD UI with Transport enabled.
