@@ -1,3 +1,9 @@
+modep-common (1.0.0-1) bullseye; urgency=low
+
+  * Package rebuilt for bullseye.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 26 May 2022 15:21:59 +0100
+
 modep-common (1.0.0-0) buster; urgency=medium
 
   * Initial deb package.

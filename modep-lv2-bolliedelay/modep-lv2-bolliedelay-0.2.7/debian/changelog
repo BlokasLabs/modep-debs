@@ -1,3 +1,9 @@
+modep-lv2-bolliedelay (0.2.7-2) bullseye; urgency=low
+
+  * Package rebuilt for bullseye.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 26 May 2022 15:21:59 +0100
+
 modep-lv2-bolliedelay (0.2.7-1) buster; urgency=low
 
   * Fix for sync with external tempo.

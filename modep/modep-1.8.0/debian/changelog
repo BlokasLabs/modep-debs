@@ -1,3 +1,9 @@
+modep (1.8.0-4) bullseye; urgency=low
+
+  * Package rebuilt for bullseye.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 26 May 2022 15:21:59 +0100
+
 modep (1.8.0-3) buster; urgency=low
 
   * Updated recommended lv2 plugin packages.
