@@ -2,7 +2,7 @@ Source: modep-lv2-calf
 Section: sound
 Priority: optional
 Maintainer: Blokas <hello@blokas.io>
-Build-Depends: debhelper (>=11~), dh-autoreconf
+Build-Depends: debhelper (>=11~), dh-autoreconf, modep-fluidsynth
 Standards-Version: 4.1.4
 Homepage: https://blokas.io/modep
 

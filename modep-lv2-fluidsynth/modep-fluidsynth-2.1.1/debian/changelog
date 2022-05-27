@@ -1,3 +1,9 @@
+modep-fluidsynth (2.1.1-3) bullseye; urgency=low
+
+  * Added Conflicts: libfluidsynth2 and libfluidsynth-dev.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Fri, 27 May 2022 14:37:24 +0100
+
 modep-fluidsynth (2.1.1-2) bullseye; urgency=low
 
   * Package rebuilt for bullseye.

@@ -11,3 +11,4 @@ Architecture: any
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Fluid synth package for modep
+Conflicts: libfluidsynth2, libfluidsynth-dev

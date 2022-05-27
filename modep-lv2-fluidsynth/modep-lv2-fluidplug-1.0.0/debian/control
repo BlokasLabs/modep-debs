@@ -2,7 +2,7 @@ Source: modep-lv2-fluidplug
 Section: audio
 Priority: optional
 Maintainer: Blokas <hello@blokas.io>
-Build-Depends: debhelper (>=11~), p7zip-full (>=16.02)
+Build-Depends: debhelper (>=11~), p7zip-full (>=16.02), modep-fluidsynth
 Standards-Version: 4.1.4
 Homepage: https://blokas.io/modep
 
