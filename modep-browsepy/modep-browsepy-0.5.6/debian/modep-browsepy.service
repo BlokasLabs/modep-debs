@@ -1,0 +1,27 @@
+[Unit]
+Description=browsepy
+After=jack2.service
+
+[Service]
+Type=simple
+ExecStartPre=/bin/mkdir -p "/var/modep/user-files/Audio Loops"
+ExecStartPre=/bin/mkdir -p "/var/modep/user-files/Audio Recordings"
+ExecStartPre=/bin/mkdir -p "/var/modep/user-files/Audio Samples"
+ExecStartPre=/bin/mkdir -p "/var/modep/user-files/Audio Tracks"
+ExecStartPre=/bin/mkdir -p "/var/modep/user-files/MIDI Clips"
+ExecStartPre=/bin/mkdir -p "/var/modep/user-files/MIDI Songs"
+ExecStartPre=/bin/mkdir -p "/var/modep/user-files/Reverb IRs"
+ExecStartPre=/bin/mkdir -p "/var/modep/user-files/Speaker Cabinets IRs"
+ExecStartPre=/bin/mkdir -p "/var/modep/user-files/Hydrogen Drumkits"
+ExecStartPre=/bin/mkdir -p "/var/modep/user-files/SF2 Instruments"
+ExecStartPre=/bin/mkdir -p "/var/modep/user-files/SFZ Instruments"
+ExecStart=/usr/bin/browsepy --directory /var/modep/user-files --upload /var/modep/user-files --removable /var/modep/user-files 0.0.0.0 8081
+Restart=always
+User=modep
+Group=modep
+StandardOutput=journal+console
+StandardError=journal+console
+SyslogIdentifier=browsepy
+
+[Install]
+WantedBy=multi-user.target

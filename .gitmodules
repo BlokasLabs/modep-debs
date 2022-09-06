@@ -127,3 +127,6 @@
 [submodule "libhylia/src"]
 	path = libhylia/src
 	url = https://github.com/BlokasLabs/Hylia
+[submodule "modep-browsepy/src"]
+	path = modep-browsepy/src
+	url = https://github.com/blokaslabs/browsepy

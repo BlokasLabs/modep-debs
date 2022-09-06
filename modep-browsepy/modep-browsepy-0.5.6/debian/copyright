@@ -1,0 +1,159 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: modep-browsepy
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .gitignore
+           MANIFEST.in
+           README.rst
+           browsepy/__init__.py
+           browsepy/__main__.py
+           browsepy/__meta__.py
+           browsepy/appconfig.py
+           browsepy/compat.py
+           browsepy/exceptions.py
+           browsepy/file.py
+           browsepy/manager.py
+           browsepy/mimetype.py
+           browsepy/plugin/__init__.py
+           browsepy/plugin/player/__init__.py
+           browsepy/plugin/player/playable.py
+           browsepy/plugin/player/static/css/base.css
+           browsepy/plugin/player/static/css/browse.css
+           browsepy/plugin/player/static/css/jplayer.blue.monday.min.css
+           browsepy/plugin/player/static/image/jplayer.blue.monday.jpg
+           browsepy/plugin/player/static/image/jplayer.blue.monday.seeking.gif
+           browsepy/plugin/player/static/image/jplayer.blue.monday.video.play.png
+           browsepy/plugin/player/static/js/base.js
+           browsepy/plugin/player/static/js/jplayer.playlist.min.js
+           browsepy/plugin/player/static/js/jquery.jplayer.min.js
+           browsepy/plugin/player/static/js/jquery.jplayer.swf
+           browsepy/plugin/player/static/js/jquery.min.js
+           browsepy/plugin/player/templates/audio.player.html
+           browsepy/plugin/player/tests.py
+           browsepy/static/base.css
+           browsepy/static/browse.directory.body.js
+           browsepy/static/browse.directory.head.js
+           browsepy/static/fonts/cooperhewitt-book-webfont.eot
+           browsepy/static/fonts/cooperhewitt-book-webfont.ttf
+           browsepy/static/fonts/cooperhewitt-book-webfont.woff
+           browsepy/static/fonts/cooperhewitt-book-webfont.woff2
+           browsepy/static/fonts/cooperhewitt-bookitalic-webfont.eot
+           browsepy/static/fonts/cooperhewitt-bookitalic-webfont.ttf
+           browsepy/static/fonts/cooperhewitt-bookitalic-webfont.woff
+           browsepy/static/fonts/cooperhewitt-bookitalic-webfont.woff2
+           browsepy/static/fonts/cooperhewitt-light-webfont.eot
+           browsepy/static/fonts/cooperhewitt-light-webfont.ttf
+           browsepy/static/fonts/cooperhewitt-light-webfont.woff
+           browsepy/static/fonts/cooperhewitt-light-webfont.woff2
+           browsepy/static/fonts/cooperhewitt-lightitalic-webfont.eot
+           browsepy/static/fonts/cooperhewitt-lightitalic-webfont.ttf
+           browsepy/static/fonts/cooperhewitt-lightitalic-webfont.woff
+           browsepy/static/fonts/cooperhewitt-lightitalic-webfont.woff2
+           browsepy/static/fonts/cooperhewitt-semibold-webfont.eot
+           browsepy/static/fonts/cooperhewitt-semibold-webfont.ttf
+           browsepy/static/fonts/cooperhewitt-semibold-webfont.woff
+           browsepy/static/fonts/cooperhewitt-semibold-webfont.woff2
+           browsepy/static/fonts/demo.html
+           browsepy/static/fonts/icomoon.eot
+           browsepy/static/fonts/icomoon.ttf
+           browsepy/static/fonts/icomoon.woff
+           browsepy/static/giorgio.jpg
+           browsepy/stream.py
+           browsepy/templates/400.html
+           browsepy/templates/404.html
+           browsepy/templates/browse.html
+           browsepy/templates/remove.html
+           browsepy/templates/subdir.html
+           browsepy/tests/__init__.py
+           browsepy/tests/deprecated/__init__.py
+           browsepy/tests/deprecated/plugin/__init__.py
+           browsepy/tests/deprecated/plugin/player.py
+           browsepy/tests/deprecated/test_plugins.py
+           browsepy/tests/runner.py
+           browsepy/tests/test_app.py
+           browsepy/tests/test_compat.py
+           browsepy/tests/test_extensions.py
+           browsepy/tests/test_file.py
+           browsepy/tests/test_main.py
+           browsepy/tests/test_module.py
+           browsepy/tests/test_plugins.py
+           browsepy/tests/test_transform.py
+           browsepy/tests/utils.py
+           browsepy/transform/__init__.py
+           browsepy/transform/glob.py
+           browsepy/transform/htmlcompress.py
+           browsepy/widget.py
+           deploy-mod.sh
+           doc/.static/logo.css
+           doc/.templates/layout.html
+           doc/Makefile
+           doc/builtin_plugins.rst
+           doc/compat.rst
+           doc/exceptions.rst
+           doc/exclude.rst
+           doc/file.rst
+           doc/index.rst
+           doc/integrations.rst
+           doc/manager.rst
+           doc/plugins.rst
+           doc/quickstart.rst
+           doc/screenshot.0.3.1-0.png
+           doc/stream.rst
+           doc/tests_utils.rst
+           requirements.txt
+           setup.cfg
+           setup.py
+           xxx
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     browsepy/plugin/player/static/css/jplayer.blue.monday.css
+Copyright: 2010-2014 Happyworm Ltd
+License:   __UNKNOWN__
+ Licensed under the MIT license.
+ - http://www.opensource.org/licenses/mit-license.php
+
+Files:     doc/conf.py
+Copyright: __NO_COPYRIGHT__ in: doc/conf.py
+License:   __UNKNOWN__
+ # The version info for the project you're documenting, acts as replacement for
+ # |version| and |release|, also used in various other places throughout the
+ # built documents.
+ #
+ # The short X.Y version.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         browsepy/templates/base.html
+#         browsepy/static/fonts/icomoon.svg
+#         doc/.templates/sidebar.html
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE
+ The MIT License (MIT)
+ .
+ Copyright (c) 2013-2016 Felipe A. Hernandez
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy of
+ this software and associated documentation files (the "Software"), to deal in
+ the Software without restriction, including without limitation the rights to
+ use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ the Software, and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

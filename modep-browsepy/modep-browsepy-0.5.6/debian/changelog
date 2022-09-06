@@ -1,0 +1,6 @@
+modep-browsepy (0.5.6-1) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Tue, 06 Sep 2022 15:23:34 +0100
