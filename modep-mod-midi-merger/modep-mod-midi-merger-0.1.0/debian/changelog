@@ -1,3 +1,9 @@
+modep-mod-midi-merger (0.1.0-3) bullseye; urgency=low
+
+  * Updated to c3b9432af9a1249c1a4ef77904913825cf1a50a5 upstream revision.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Wed, 07 Sep 2022 12:46:15 +0300
+
 modep-mod-midi-merger (0.1.0-2) bullseye; urgency=low
 
   * Package rebuilt for bullseye.
