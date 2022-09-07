@@ -6,12 +6,16 @@
 #export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 
 export NOOPT=true
+export PREFIX=/usr
 
 %:
 	dh $@  
 
+override_dh_auto_build:
+	dh_auto_build -- PREFIX=$(PREFIX)
+
 override_dh_auto_install:
-	dh_auto_install -- PREFIX=/usr
+	dh_auto_install -- PREFIX=$(PREFIX)
 
 #override_dh_install:
 #	dh_install --list-missing -X.pyc -X.pyo
