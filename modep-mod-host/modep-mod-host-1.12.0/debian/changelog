@@ -1,3 +1,9 @@
+modep-mod-host (1.12.0-1) bullseye; urgency=low
+
+  * Updated mod-host to v0.10.6-534-ge5adb67
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Wed, 07 Sep 2022 11:12:05 +0300
+
 modep-mod-host (1.8.0-3) bullseye; urgency=low
 
   * Package rebuilt for bullseye.
