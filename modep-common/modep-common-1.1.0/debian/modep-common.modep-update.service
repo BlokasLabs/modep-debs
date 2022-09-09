@@ -1,0 +1,11 @@
+[Unit]
+Description=MODEP Update Service
+
+[Service]
+Type=oneshot
+ExecStartPre=/bin/rm -rf /tmp/modep-update
+ExecStartPre=/usr/bin/apt-get update
+ExecStart=/usr/bin/apt-get install --only-upgrade -y modep modep-common modep-mod-ui modep-mod-host modep-btn-scripts modep-ctl-scripts modep-mod-midi-merger modep-touchosc2midi modep-demo-content modep-browsepy
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Modep Update Monitor path.
+
+[Path]
+PathExists=/tmp/modep-update
+Unit=modep-update.service
+
+[Install]
+WantedBy=multi-user.target

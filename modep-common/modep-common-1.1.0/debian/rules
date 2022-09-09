@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with-systemd
+
+override_dh_installsystemd:
+	dh_installsystemd --name=modep-update --no-enable --no-start --no-stop-on-upgrade modep-update.service
+	dh_installsystemd --name=modep-update modep-update.path

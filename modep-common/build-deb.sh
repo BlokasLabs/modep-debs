@@ -2,9 +2,18 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-pushd $DIR
+cd $DIR
 source ../env.sh
 
-dpkg-buildpackage --no-sign --build=binary
+PACKAGE=modep-common
+VERSION=1.1.0
 
-popd
+PKGFOLDER=${PACKAGE}-${VERSION}
+
+mkdir -p ${PKGFOLDER}
+#cp -r src/* ${PKGFOLDER}
+tar -czf ${PKGFOLDER}.tar.gz --exclude .git ${PKGFOLDER}
+
+cd ${PKGFOLDER}
+
+echo y | debuild -b -us -uc

@@ -1,3 +1,8 @@
 adduser --no-create-home --system --group modep
 adduser modep jack
 adduser modep audio
+
+USER=${SUDO_USER:-$(who -m | awk '{ print $1 }')}
+adduser $USER modep
+
+#DEBHELPER#

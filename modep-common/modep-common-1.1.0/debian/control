@@ -2,10 +2,10 @@ Source: modep-common
 Section: audio
 Priority: optional
 Maintainer: Blokas Labs <hello@blokas.io>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>=11~)
 
 Package: modep-common
-Homepage: https://blokas.io/modep
+Homepage: https://blokas.io/modep/
 #Standards-Version: 3.9.2
 #Version: 1.0.0-0
 Architecture: all
