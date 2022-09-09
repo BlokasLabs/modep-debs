@@ -1,0 +1,11 @@
+#!/bin/sh
+
+mkdir -p /var/modep/lv2
+chown -R modep:modep /var/modep
+chmod 2775 /var/modep
+chmod 2775 /var/modep/lv2
+
+chmod 500 /etc/authbind/byport/80
+chown modep:modep /etc/authbind/byport/80
+
+#DEBHELPER#
