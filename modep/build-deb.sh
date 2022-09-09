@@ -6,7 +6,7 @@ cd $DIR
 source ../env.sh
 
 PACKAGE=modep
-VERSION=1.8.0
+VERSION=1.12.0
 
 PKGFOLDER=${PACKAGE}-${VERSION}
 

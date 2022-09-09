@@ -1,0 +1,14 @@
+Source: modep
+Section: sound
+Priority: optional
+Maintainer: Blokas <hello@blokas.io>
+Build-Depends: debhelper (>=11~)
+Standards-Version: 4.1.4
+Homepage: https://blokas.io/modep/
+
+Package: modep
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}, modep-common (>= 1.1.0-0), modep-mod-host (>= 1.12.0), modep-mod-midi-merger (>= 0.1.0-1), modep-mod-ui (>= 1.12.0)
+Recommends: modep-touchosc2midi (>= 1.0.0-1), modep-btn-scripts (>= 1.1.0-1), modep-ctl-scripts (>= 1.8.0-1)
+Description: MODEP meta package

@@ -1,3 +1,9 @@
+modep (1.12.0-1) bullseye; urgency=low
+
+  * Modep 1.12 release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Fri, 09 Sep 2022 18:13:21 +0300
+
 modep (1.8.0-4) bullseye; urgency=low
 
   * Package rebuilt for bullseye.
