@@ -1,5 +1,9 @@
 #!/bin/sh
 
+mkdir -p /var/modep/lv2
+chmod 2775 /var/modep
+chmod 2775 /var/modep/lv2
+
 LV2_MIGRATE=false
 
 if [ $1 = "install" ]; then

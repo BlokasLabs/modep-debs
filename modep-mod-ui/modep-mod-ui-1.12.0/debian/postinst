@@ -1,9 +1,5 @@
 #!/bin/sh
 
-mkdir -p /var/modep/lv2
-chmod 2775 /var/modep
-chmod 2775 /var/modep/lv2
-
 chown -R modep:modep /var/modep
 
 find /var/modep -type d -exec chmod 775 {} +

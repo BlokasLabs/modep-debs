@@ -1,4 +1,4 @@
-modep-mod-ui (1.12.0-2) bullseye; urgency=low
+modep-mod-ui (1.12.0-3) bullseye; urgency=low
 
   * Migrate LV2 plugins from /usr/modep/lv2 to /var/modep/lv2.
   * Monitor modep-update.service during upgrade.
