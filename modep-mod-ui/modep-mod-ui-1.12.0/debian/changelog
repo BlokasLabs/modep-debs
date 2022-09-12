@@ -1,3 +1,10 @@
+modep-mod-ui (1.12.0-2) bullseye; urgency=low
+
+  * Migrate LV2 plugins from /usr/modep/lv2 to /var/modep/lv2.
+  * Monitor modep-update.service during upgrade.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 12 Sep 2022 12:57:18 +0300
+
 modep-mod-ui (1.12.0-1) bullseye; urgency=low
 
   * Updated to mod 1.12.

@@ -1,0 +1,22 @@
+#!/bin/sh
+
+LV2_MIGRATE=false
+
+if [ $1 = "install" ]; then
+    LV2_MIGRATE=true
+elif [ $1 = "upgrade" ]; then
+    if $(dpkg --compare-versions "$2" "lt" "1.12.0-2"); then
+        LV2_MIGRATE=true
+    fi
+fi
+
+if $LV2_MIGRATE; then
+    if [ -e /usr/modep/lv2 ]; then
+        echo "Migrating /usr/modep/lv2 plugins to /var/modep/lv2"
+        cp -rp /usr/modep/lv2/* /var/modep/lv2/
+        echo
+        echo "You may want to run \`sudo apt purge modep-lv2-*\` to remove deprecated plugin packages. Install LV2 plugins from Patchstorage pane instead."
+    fi
+fi
+
+#DEBHELPER#

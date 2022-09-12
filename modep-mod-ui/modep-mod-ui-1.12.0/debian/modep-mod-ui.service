@@ -8,7 +8,7 @@ Wants=modep-mod-midi-merger.service modep-mod-midi-broadcaster.service pisound-b
 UMask=0002
 LimitRTPRIO=95
 LimitMEMLOCK=infinity
-Environment=LV2_PATH=/usr/modep/lv2:/var/modep/lv2
+Environment=LV2_PATH=/var/modep/lv2
 Environment=LV2_PLUGIN_DIR=/var/modep/lv2
 Environment=LV2_PEDALBOARDS_DIR=/var/modep/pedalboards
 Environment=MOD_DEV_ENVIRONMENT=0
