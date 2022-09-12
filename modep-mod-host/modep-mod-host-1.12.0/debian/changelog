@@ -1,3 +1,9 @@
+modep-mod-host (1.12.0-3) bullseye; urgency=low
+
+  * Restart modep-mod-host service after upgrade.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 12 Sep 2022 19:44:55 +0300
+
 modep-mod-host (1.12.0-2) bullseye; urgency=low
 
   * Use LV2 plugins from /var/modep/lv2 only.
