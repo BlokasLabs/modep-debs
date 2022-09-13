@@ -3,6 +3,7 @@ Description=browsepy
 After=jack2.service
 
 [Service]
+UMask=0002
 Type=simple
 ExecStartPre=/bin/mkdir -p "/var/modep/user-files/Audio Loops"
 ExecStartPre=/bin/mkdir -p "/var/modep/user-files/Audio Recordings"

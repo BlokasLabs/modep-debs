@@ -10,4 +10,4 @@ override_dh_auto_test:
 	echo Skipping tests
 
 override_dh_installsystemd:
-	dh_installsystemd --no-enable --no-start modep-browsepy.service
+	dh_installsystemd --no-enable
