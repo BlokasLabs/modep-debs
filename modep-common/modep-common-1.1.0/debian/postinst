@@ -3,6 +3,13 @@ adduser modep jack
 adduser modep audio
 
 USER=${SUDO_USER:-$(who -m | awk '{ print $1 }')}
-adduser $USER modep
+
+for i in $USER patch pi; do
+	if id -u "$i" > /dev/null 2>&1; then
+		if ! groups $i | grep -q '\bmodep\b'; then
+			adduser $i modep
+		fi
+	fi
+done
 
 #DEBHELPER#
