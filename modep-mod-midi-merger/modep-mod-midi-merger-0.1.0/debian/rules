@@ -19,8 +19,8 @@ override_dh_auto_install:
 	rm -r $(CURDIR)/debian/modep-mod-midi-merger/tmp
 
 override_dh_installsystemd:
-	dh_installsystemd --no-enable --no-start --name=modep-mod-midi-merger
-	dh_installsystemd --no-enable --no-start --name=modep-mod-midi-broadcaster
+	dh_installsystemd --no-enable --name=modep-mod-midi-merger
+	dh_installsystemd --no-enable --name=modep-mod-midi-broadcaster
 
 #override_dh_auto_configure:
 #	dh_auto_configure -- \
