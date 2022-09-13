@@ -2,7 +2,7 @@ Source: modep-browsepy
 Section: unknown
 Priority: optional
 Maintainer: Giedrius Trainavičius <giedrius@blokas.io>
-Build-Depends: debhelper-compat (= 12), dh-python, python3-all
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-unicategories
 Standards-Version: 4.5.0
 Homepage: <insert the upstream URL, if relevant>
 X-Python3-Version: >= 3.2
