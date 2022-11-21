@@ -18,6 +18,7 @@ Environment=MOD_APP=0
 Environment=MOD_LIVE_ISO=0
 Environment=MOD_SYSTEM_OUTPUT=1
 Environment=MOD_DATA_DIR=/var/modep
+Environment=MOD_PRESETS_DIR=/var/modep/lv2-presets
 Environment=MOD_USER_FILES_DIR=/var/modep/user-files
 Environment=JACK_PROMISCUOUS_SERVER=jack
 #Environment=MOD_KEY_PATH=/var/modep/keys

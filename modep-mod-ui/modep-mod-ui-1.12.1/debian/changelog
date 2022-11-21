@@ -1,3 +1,9 @@
+modep-mod-ui (1.12.1-1) bullseye; urgency=low
+
+  * Addeed MOD_PRESETS_DIR env var instead of relying on ~/.lv2/
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Mon, 21 Nov 2022 11:36:31 +0200
+
 modep-mod-ui (1.12.0-5) bullseye; urgency=low
 
   * Set MOD_USER_FILES_DIR env var.
