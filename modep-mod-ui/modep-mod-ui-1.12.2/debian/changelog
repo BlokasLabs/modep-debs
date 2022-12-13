@@ -1,3 +1,9 @@
+modep-mod-ui (1.12.2-1) bullseye; urgency=low
+
+  * Bundle support on Patchstorage.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Tue, 13 Dec 2022 15:34:21 +0200
+
 modep-mod-ui (1.12.1-1) bullseye; urgency=low
 
   * Addeed MOD_PRESETS_DIR env var instead of relying on ~/.lv2/

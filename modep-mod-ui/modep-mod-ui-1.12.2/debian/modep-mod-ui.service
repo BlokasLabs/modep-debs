@@ -21,6 +21,9 @@ Environment=MOD_DATA_DIR=/var/modep
 Environment=MOD_PRESETS_DIR=/var/modep/lv2-presets
 Environment=MOD_USER_FILES_DIR=/var/modep/user-files
 Environment=JACK_PROMISCUOUS_SERVER=jack
+Environment=PATCHSTORAGE_API_URL=https://patchstorage.com/api/beta/patches
+Environment=PATCHSTORAGE_PLATFORM_ID=8046
+Environment=PATCHSTORAGE_TARGET_ID=8278
 #Environment=MOD_KEY_PATH=/var/modep/keys
 #Environment=MOD_API_KEY=/var/modep/mod_api_key.pub
 Environment=MOD_HTML_DIR=/usr/share/mod/html
