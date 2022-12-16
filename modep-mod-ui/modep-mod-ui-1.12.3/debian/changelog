@@ -1,3 +1,9 @@
+modep-mod-ui (1.12.3-1) bullseye; urgency=low
+
+  * Add Amplifier Profiles for Profiler plugin
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Fri, 16 Dec 2022 12:42:23 +0200
+
 modep-mod-ui (1.12.2-1) bullseye; urgency=low
 
   * Bundle support on Patchstorage.
