@@ -1,3 +1,9 @@
+modep-mod-ui (1.12.3-2) bullseye; urgency=low
+
+  * Updated modep-browsepy dependency version to 0.5.7-1.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 26 Jan 2023 17:49:28 +0200
+
 modep-mod-ui (1.12.3-1) bullseye; urgency=low
 
   * Add Amplifier Profiles for Profiler plugin
