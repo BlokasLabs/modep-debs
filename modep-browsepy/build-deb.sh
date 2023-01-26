@@ -6,7 +6,7 @@ cd $DIR
 source ../env.sh
 
 PACKAGE=modep-browsepy
-VERSION=0.5.6
+VERSION=0.5.7
 
 PKGFOLDER=${PACKAGE}-${VERSION}
 

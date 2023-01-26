@@ -1,3 +1,9 @@
+modep-browsepy (0.5.7-1) UNRELEASED; urgency=low
+
+  * Added Aida DSP Models and Amplifier Profiles
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 26 Jan 2023 17:22:09 +0200
+
 modep-browsepy (0.5.6-2) UNRELEASED; urgency=low
 
   * Set UMask for modep-browsepy.service.
