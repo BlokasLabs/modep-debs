@@ -1,3 +1,9 @@
+modep-mod-ui (1.12.4-1) bullseye; urgency=low
+
+  * Patchstorage plugin info updated, added update check.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Fri, 17 Feb 2023 13:01:58 +0200
+
 modep-mod-ui (1.12.3-2) bullseye; urgency=low
 
   * Updated modep-browsepy dependency version to 0.5.7-1.

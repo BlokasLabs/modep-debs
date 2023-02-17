@@ -11,7 +11,7 @@ X-Python3-Version: >= 3.2
 Architecture: all
 Multi-Arch: foreign
 Pre-Depends: modep-common (>= 1.1.0)
-Depends: modep-mod-host (>= 1.12.0-2), modep-mod-midi-merger (>= 0.1.0), modep-browsepy (>= 0.5.7-1)
+Depends: modep-mod-host (>= 1.12.0-4), modep-mod-midi-merger (>= 0.1.0), modep-browsepy (>= 0.5.7-1)
          ${misc:Depends},
          ${python3:Depends},
          authbind (>= 2.1.2),
