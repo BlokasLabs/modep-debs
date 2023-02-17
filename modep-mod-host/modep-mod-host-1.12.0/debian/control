@@ -9,5 +9,5 @@ Homepage: https://blokas.io/modep
 Package: modep-mod-host
 Architecture: any
 Multi-Arch: foreign
-Depends: modep-common (>= 1.1.0), blokas-jack (>= 1.0.3), libc6 (>= 2.7), libexpat1 (>= 2.0.1), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 4.0), libglibmm-2.4-1v5 (>= 2.64.2), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libsndfile1 (>= 1.0.20), libstdc++6 (>= 9), libzita-convolver4 (>= 4.0.3), libzita-resampler1 (>= 1.8.0), ${misc:Depends}, ${shlibs:Depends}
+Depends: modep-common (>= 1.1.0), blokas-jack (>= 1.0.3), libc6 (>= 2.7), libexpat1 (>= 2.0.1), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 4.0), libglibmm-2.4-1v5 (>= 2.64.2), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libsndfile1 (>= 1.0.20), libstdc++6 (>= 9), libzita-convolver3 (>= 3.1.0-5), libzita-convolver4 (>= 4.0.3), libzita-resampler1 (>= 1.8.0), libfaust2 (>= 2.30.5~), ${misc:Depends}, ${shlibs:Depends}
 Description: MOD-Host package.
