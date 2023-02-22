@@ -1,3 +1,9 @@
+modep-mod-ui (1.12.4-2) bullseye; urgency=low
+
+  * Fix for iteration over Patchstorage plugins.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Wed, 22 Feb 2023 13:04:48 +0200
+
 modep-mod-ui (1.12.4-1) bullseye; urgency=low
 
   * Patchstorage plugin info updated, added update check.
