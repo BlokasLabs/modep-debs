@@ -1,3 +1,9 @@
+modep-mod-ui (1.12.4-4) bullseye; urgency=low
+
+  * Set presets dir in LV2_PATH too.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Fri, 10 Mar 2023 12:46:45 +0200
+
 modep-mod-ui (1.12.4-3) bullseye; urgency=low
 
   * Fix for installing plugins from Patchstorage.
