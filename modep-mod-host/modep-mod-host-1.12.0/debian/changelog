@@ -1,3 +1,9 @@
+modep-mod-host (1.12.0-6) bullseye; urgency=low
+
+  * Set MODE_PRESETS_DIR value in LV2_PATH too.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Fri, 10 Mar 2023 12:40:54 +0200
+
 modep-mod-host (1.12.0-5) bullseye; urgency=low
 
   * Added MOD_USER_FILES_DIR, MOD_PRESETS_DIR and MOD_DATA_DIR environment variables.

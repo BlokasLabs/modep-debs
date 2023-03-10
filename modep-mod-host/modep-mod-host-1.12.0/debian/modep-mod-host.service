@@ -10,7 +10,7 @@ User=modep
 Group=modep
 Type=forking
 Environment=JACK_PROMISCUOUS_SERVER=jack
-Environment=LV2_PATH=/var/modep/lv2
+Environment=LV2_PATH=/var/modep/lv2:/var/modep/lv2-presets
 Environment=MOD_USER_FILES_DIR=/var/modep/user-files
 Environment=MOD_PRESETS_DIR=/var/modep/lv2-presets
 Environment=MOD_DATA_DIR=/var/modep
