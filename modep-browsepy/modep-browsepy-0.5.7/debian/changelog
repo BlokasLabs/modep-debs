@@ -1,3 +1,9 @@
+modep-browsepy (0.5.7-2) UNRELEASED; urgency=low
+
+  * Added NAM support
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 11 May 2023 17:49:53 +0300
+
 modep-browsepy (0.5.7-1) UNRELEASED; urgency=low
 
   * Added Aida DSP Models and Amplifier Profiles
