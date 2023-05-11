@@ -6,7 +6,7 @@ cd $DIR
 source ../env.sh
 
 PACKAGE=modep-mod-host
-VERSION=1.12.0
+VERSION=1.13.0
 
 PKGFOLDER=${PACKAGE}-${VERSION}
 

@@ -1,6 +1,12 @@
+modep-mod-host (1.13.0-1) bullseye; urgency=low
+
+  * Updated to latest version.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 11 May 2023 17:22:47 +0300
+
 modep-mod-host (1.12.0-6) bullseye; urgency=low
 
-  * Set MODE_PRESETS_DIR value in LV2_PATH too.
+  * Set MOD_PRESETS_DIR value in LV2_PATH too.
 
  -- Giedrius Trainavičius <giedrius@blokas.io>  Fri, 10 Mar 2023 12:40:54 +0200
 
