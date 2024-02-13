@@ -11,9 +11,11 @@ X-Python3-Version: >= 3.2
 Architecture: all
 Multi-Arch: foreign
 Pre-Depends: modep-common (>= 1.1.0)
-Depends: modep-mod-host (>= 1.13.0-1), modep-mod-midi-merger (>= 0.1.0), modep-browsepy (>= 0.5.7-2)
-         ${misc:Depends},
-         ${python3:Depends},
-         authbind (>= 2.1.2),
-         libasound2 (>= 1.0.16), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, liblilv-0-0 (>= 0.22.0~dfsg0), libserd-0-0 (>= 0~svn155), libsord-0-0 (>= 0.4.2), libsratom-0-0 (>= 0.4.6~dfsg0), libstdc++6 (>= 5.2)
+Depends: modep-libmodutils (= ${binary:Version}), modep-mod-host (>= 1.13.0-1), modep-mod-midi-merger (>= 0.1.0), modep-browsepy (>= 0.5.7-2), authbind (>= 2.1.2), ${misc:Depends}, ${python3:Depends}
 Description: MOD-UI package.
+
+Package: modep-libmodutils
+Architecture: any
+Multi-Arch: foreign
+Depends: ${shlibs:Depends}
+Description: mod_utils library.

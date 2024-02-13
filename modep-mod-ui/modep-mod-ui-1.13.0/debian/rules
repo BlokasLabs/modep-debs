@@ -11,11 +11,6 @@
 override_dh_python3:
 	dh_python3 --no-ext-rename -O--buildsystem=pybuild
 
-override_dh_installsystemd:
-	dh_installsystemd modep-mod-ui.service
-
-#override_dh_makeshlibs:
-#	dh_makeshlibs
-
-#override_dh_shlibdeps:
-#	dh_shlibdeps utils/libmod_utils.so
+override_dh_install:
+	dh_movefiles
+	dh_install
