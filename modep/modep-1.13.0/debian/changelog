@@ -1,3 +1,9 @@
+modep (1.13.0-3) bookworm; urgency=low
+
+  * Rebuilt for bookworm.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 15 Feb 2024 17:06:47 +0200
+
 modep (1.13.0-2) bullseye; urgency=low
 
   * Architecture changed to 'all'.

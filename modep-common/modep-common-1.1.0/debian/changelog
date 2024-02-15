@@ -1,3 +1,9 @@
+modep-common (1.1.0-2) bookworm; urgency=low
+
+  * Rebuilt for bookworm.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 15 Feb 2024 17:06:47 +0200
+
 modep-common (1.1.0-1) bullseye; urgency=low
 
   * Added /tmp/modep-update trigger for updates.

@@ -1,3 +1,9 @@
+modep-demo-content (1.0.0-3) bookworm; urgency=low
+
+  * Rebuilt for bookworm.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 15 Feb 2024 17:06:47 +0200
+
 modep-demo-content (1.0.0-2) bullseye; urgency=low
 
   * Package rebuilt for bullseye.

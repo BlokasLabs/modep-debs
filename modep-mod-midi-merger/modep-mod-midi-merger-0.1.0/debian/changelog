@@ -1,3 +1,9 @@
+modep-mod-midi-merger (0.1.0-5) bookworm; urgency=low
+
+  * Rebuilt for bookworm.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 15 Feb 2024 17:06:47 +0200
+
 modep-mod-midi-merger (0.1.0-4) UNRELEASED; urgency=low
 
   * Don't use --no-start for modep-mod-midi-merger services, as it seems to prevent the service from being stopped on uninstall.

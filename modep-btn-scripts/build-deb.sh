@@ -6,7 +6,7 @@ cd $DIR
 source ../env.sh
 
 PACKAGE=modep-btn-scripts
-VERSION=1.1.0
+VERSION=1.2.0-2
 
 pushd src
 ./make_deb.sh
