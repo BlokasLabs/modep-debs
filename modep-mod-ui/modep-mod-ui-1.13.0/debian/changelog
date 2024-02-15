@@ -1,14 +1,8 @@
-modep-mod-ui (1.13.0-3) bookworm; urgency=low
+modep-mod-ui (1.13.0-2) bookworm; urgency=low
 
   * Rebuilt for bookworm.
 
  -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 15 Feb 2024 17:06:47 +0200
-
-modep-mod-ui (1.13.0-2) UNRELEASED; urgency=low
-
-  * Split platform agnostic and platform specific parts to separate packages (modep-mod-ui and modep-libmodutils)
-
- -- Giedrius Trainavičius <giedrius@blokas.io>  Tue, 13 Feb 2024 10:35:19 +0200
 
 modep-mod-ui (1.13.0-1) bullseye; urgency=low
 

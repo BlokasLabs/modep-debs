@@ -2,20 +2,14 @@ Source: modep-mod-ui
 Section: audio
 Priority: optional
 Maintainer: Blokas <hello@blokas.io>
-Build-Depends: debhelper (>=11~), dh-python, python3-all, python3-setuptools, libasound2-dev, libjack-jackd2-dev, liblilv-dev
+Build-Depends: debhelper (>=11~), dh-python, python3-all, python3-setuptools, libasound2-dev, libjack-jackd2-dev, liblilv-dev, python3-tornado4
 Standards-Version: 4.1.4
 Homepage: https://blokas.io/modep
 
 Package: modep-mod-ui
 X-Python3-Version: >= 3.2
-Architecture: all
-Multi-Arch: foreign
-Pre-Depends: modep-common (>= 1.1.0)
-Depends: modep-libmodutils (= ${binary:Version}), modep-mod-host (>= 1.13.0-1), modep-mod-midi-merger (>= 0.1.0), modep-browsepy (>= 0.5.7-2), authbind (>= 2.1.2), ${misc:Depends}, ${python3:Depends}
-Description: MOD-UI package.
-
-Package: modep-libmodutils
 Architecture: any
 Multi-Arch: foreign
-Depends: ${shlibs:Depends}
-Description: mod_utils library.
+Pre-Depends: modep-common (>= 1.1.0)
+Depends: ${shlibs:Depends}, modep-mod-host (>= 1.13.0-1), modep-mod-midi-merger (>= 0.1.0), modep-browsepy (>= 0.5.7-2), authbind (>= 2.1.2), ${misc:Depends}, ${python3:Depends}
+Description: MOD-UI package.
