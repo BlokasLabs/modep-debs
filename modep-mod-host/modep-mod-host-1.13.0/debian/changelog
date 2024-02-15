@@ -1,3 +1,9 @@
+modep-mod-host (1.13.0-2) bookworm; urgencly=low
+
+  * Rebuilt for bookworm.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 15 Feb 2024 10:41:38 +0000
+
 modep-mod-host (1.13.0-1) bullseye; urgency=low
 
   * Updated to latest version.
