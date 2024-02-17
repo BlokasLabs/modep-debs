@@ -1,6 +1,6 @@
 modep-mod-ui (1.13.0-2) bookworm; urgency=low
 
-  * Rebuilt for bookworm.
+  * Rebuilt for bookworm, differentiate the Patchstorage target platform id for armhf and aarch64.
 
  -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 15 Feb 2024 17:06:47 +0200
 
