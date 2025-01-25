@@ -1,3 +1,9 @@
+modep-mod-ui (1.13.0-3) bookworm; urgency=low
+
+  * MAdded /snapshot/current API endpoint for getting the current snapshot by jtemple967.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Sat, 25 Jan 2025 13:01:44 +0200
+
 modep-mod-ui (1.13.0-2) bookworm; urgency=low
 
   * Rebuilt for bookworm, differentiate the Patchstorage target platform id for armhf and aarch64.
