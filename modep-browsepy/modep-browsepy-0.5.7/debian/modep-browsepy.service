@@ -18,6 +18,7 @@ ExecStartPre=/bin/mkdir -p "/var/modep/user-files/SF2 Instruments"
 ExecStartPre=/bin/mkdir -p "/var/modep/user-files/SFZ Instruments"
 ExecStartPre=/bin/mkdir -p "/var/modep/user-files/Aida DSP Models"
 ExecStartPre=/bin/mkdir -p "/var/modep/user-files/Amplifier Profiles"
+ExecStartPre=/bin/mkdir -p "/var/modep/user-files/NAM Models"
 ExecStart=/usr/bin/browsepy --directory /var/modep/user-files --upload /var/modep/user-files --removable /var/modep/user-files 0.0.0.0 8081
 Restart=always
 User=modep
