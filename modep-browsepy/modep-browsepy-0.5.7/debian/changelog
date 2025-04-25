@@ -1,3 +1,9 @@
+modep-browsepy (0.5.7-5) bookworm; urgency=low
+
+  * Restored 0.5.7-3 NAM Models user dir creation.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Fri, 25 Apr 2025 15:38:35 +0300
+
 modep-browsepy (0.5.7-4) bookworm; urgency=low
 
   * Rebuilt for bookworm.
