@@ -1,3 +1,9 @@
+modep-mod-host (1.13.0-3) trixie; urgency=low
+
+  * Trixie edition rebuild.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 20 Nov 2025 23:18:19 +0200
+
 modep-mod-host (1.13.0-2) bookworm; urgencly=low
 
   * Rebuilt for bookworm.

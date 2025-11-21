@@ -1,3 +1,9 @@
+modep-browsepy (0.5.7-6) UNRELEASED; urgency=low
+
+  * Trixie edition rebuild.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 20 Nov 2025 23:18:19 +0200
+
 modep-browsepy (0.5.7-5) bookworm; urgency=low
 
   * Restored 0.5.7-3 NAM Models user dir creation.

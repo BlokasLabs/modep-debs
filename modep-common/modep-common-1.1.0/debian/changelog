@@ -1,3 +1,9 @@
+modep-common (1.1.0-3) UNRELEASED; urgency=low
+
+  * Trixie edition rebuild.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 20 Nov 2025 23:18:19 +0200
+
 modep-common (1.1.0-2) bookworm; urgency=low
 
   * Rebuilt for bookworm.

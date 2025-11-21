@@ -1,3 +1,9 @@
+modep-mod-ui (1.13.0-4) UNRELEASED; urgency=low
+
+  * Trixie edition rebuild.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 20 Nov 2025 23:18:19 +0200
+
 modep-mod-ui (1.13.0-3) bookworm; urgency=low
 
   * MAdded /snapshot/current API endpoint for getting the current snapshot by jtemple967.
