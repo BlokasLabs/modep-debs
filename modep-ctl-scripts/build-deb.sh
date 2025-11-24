@@ -6,7 +6,7 @@ cd $DIR
 source ../env.sh
 
 PACKAGE=modep-ctl-scripts
-VERSION=1.8.0-2
+VERSION=1.8.0-3
 
 pushd src
 ./build-deb.sh
